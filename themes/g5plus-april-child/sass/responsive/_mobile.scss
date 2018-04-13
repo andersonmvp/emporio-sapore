@@ -1,0 +1,395 @@
+@media (max-width: 995px) {
+
+    h2 {
+        font-size: 6rem;
+        line-height: 1;
+    }
+
+    .woocommerce-cart .woocommerce-cart-form .cart-subtotal input.button {
+        width: 100%;
+    }
+
+    div.gsf-catalog-filter {
+        .gsf-catalog-filter-switch-layout {
+            display: none;
+        }
+
+        .gf-table-cell-left {
+            display: none;
+        }
+    }
+    .post-type-archive.woocommerce .gf-gutter-30 > [class*="col-"], .tax-product_cat .gf-gutter-30 > [class*="col-"] {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .woocommerce-cart .coupon input {
+        margin-right: initial !important;
+    }
+
+    .woocommerce-cart .coupon input[type="text"] {
+        max-width: none !important;
+    }
+
+    .woocommerce-cart-form .wc-proceed-to-checkout {
+        float: none !important;
+        text-align: center;
+    }
+
+    .woocommerce-MyAccount-navigation-link--downloads {
+        display: none !important;
+    }
+
+    .woocommerce-account .woocommerce-MyAccount-content {
+        margin-top: 25px;
+    }
+    .woocommerce-account .woocommerce-MyAccount-navigation {
+      ul {
+          padding-bottom: 1.2rem;
+      }
+        ul li a {
+            padding: 8px 15px;
+        }
+
+        ul li a:hover {
+            border-radius: 50px !important;
+        }
+
+        ul li.is-active a {
+            border-radius: 50px !important;
+        }
+    
+    }
+    .box-na-sua-empresa {
+        padding-top: 2rem !important;
+
+        .wpb_wrapper {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .frase-destaque h3 {
+        font-size: 4rem;
+        margin-top: 0rem;
+    }
+
+    .icons-empresas {
+        .ib-shape {
+            margin-bottom: 1rem !important;
+        }
+
+        margin-bottom: 3rem; 
+
+        img {
+            width: 25%;
+        }
+
+        h4.iconbox-title {
+            font-size: 18px !important;
+        }
+    }
+
+    .box-vantagens {
+        margin-top: 2rem !important;
+        padding-top: 4rem !important;
+        padding-bottom: 4rem !important;
+
+        .vc_col-sm-6:first-child {
+            margin-bottom: 5rem;
+        }
+
+        h2 {
+            font-size: 3rem !important
+        }
+    }
+
+    .page-title-container h1 {
+        line-height: 0.8;
+    }
+
+    .btn-quem-somos a, .form-contato input[type="submit"] {
+        font-size: 1.4rem !important;
+    }
+
+    .conheca-produtos h2 {
+        font-size: 6rem;
+        line-height: normal;
+    }
+
+    .mapa-contato {
+        h2 {
+            font-size: 6rem;
+            line-height: normal;
+        }
+
+        p {
+            font-size: 1.6rem;
+        }
+    }
+    
+    .woocommerce-info, .woocommerce-message {
+        line-height: 1;
+    }
+
+    .product-flash {
+        font-size: 16px;
+    }
+
+    .post-type-archive.woocommerce .product-heading h4 a {
+        font-size: 1.4rem;
+    }
+
+    .mobile-top-bar .wpb_column.vc_col-sm-6:last-child {
+        display: none;
+    }
+
+    .mobile-top-bar .wpb_column.vc_col-sm-6:first-child {
+        width: 100%;
+        .wpb_content_element {
+            margin-bottom: 12px;
+        }
+    }
+
+    .mobile-top-bar {
+        padding: 0px 15px;
+    }
+
+    //TOP MENU
+    .top-menu p {
+        text-align: center;
+        line-height: normal
+    }
+
+    //CONFIGURANDO AS BARRINHAS DO MENU MOBILE
+
+    .mobile-header-menu {
+        .gf-toggle-icon > span,  .gf-toggle-icon > span:before,  .gf-toggle-icon > span:after  {
+            border-color: $vermelho !important;
+            border-radius: 10px;
+            background-color: $vermelho;
+        }
+    }
+
+    .mobile-header-search {
+        margin-bottom: 1rem;
+        border:none;
+
+        form {
+        border: 5px solid #f7f7f7;
+        border-radius: 50px;
+    }
+        .search-form .search-field {
+           
+            background-color: #f7f7f7 !important;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+        }
+
+        .search-form .search-submit {
+            background: #E8A970 !important;
+            border-radius: 50px;
+            padding: 0 14px !important;
+            right: 0;
+            
+            i {
+                color: $branco;
+                padding: 0 3px;
+            }
+        }
+    }
+
+    .icon-frete-gratis {
+        width: 100%;
+        .vc_column-inner {
+            padding: 0 30%;
+        }
+    }
+
+    .box-promocao article,  .box-nossos-produtos article {
+        padding: 0 3rem;
+    }
+
+    .box-rodape {
+        .wpb_content_element {
+            margin-bottom: 0;
+        }
+
+        .btn-container a {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .box-subrodape .wpb_wrapper > p {
+        margin-top: 1rem;
+    }
+
+    //CONFIGURANDO O CARRRINHO
+
+    .mobile-header-inner {
+        .customize-shopping-cart .shopping-cart-icon .icon {
+            color: $cor-texto2 !important;
+
+            span {
+                background-color: $laranja;
+            }
+        }
+    }
+
+    //CONFIGURANDO O MENU HAMBURGER DA LATERAL
+
+    .mobile-navigation-wrapper {
+
+       .mobile-menu a:hover {
+            color: $laranja;
+       }
+
+        .gf-menu-vertical li.current-menu-item > a {
+            color: $laranja;
+        }
+
+        //DESTACANDO O MENU FINALIZAR COMPRA
+        #menu-item-440 {
+            background-color: $azul;
+        }
+
+        .mobile-menu {
+            a:active, a:focus {
+                color: $laranja;
+            }
+        }
+
+        .sub-menu {
+            a:active, a:focus {
+                color: $vermelho;
+            }
+        }
+
+        .mobile-menu {
+            ul.sub-menu {
+                background-color: $laranja !important;
+            }
+
+            ul.sub-menu li + li {
+                border-color: $branco !important;
+            }
+
+            ul.sub-menu:before {
+                border-top-color: $vermelho;
+            }
+        }
+    }
+
+    .gf-menu-vertical li.current-menu-ancestor > a, .gf-menu-vertical li.current-menu-parent > a {
+        color: $laranja !important
+    }
+
+    .mobile-navigation-wrapper {
+
+        background-color: $vermelho;
+
+        .search-form {
+            background-color: $vermelho-escuro;
+            
+            .search-field {
+                background-color: white;
+                border-radius: 50px;
+                border: 0px solid $branco;
+            }
+
+            .search-submit {
+                background: #E8A970 !important;
+                border-radius: 50px;
+                padding: 0 10px !important;
+                border: 3px solid $branco;
+                
+                i {
+                    color: $branco;
+                    padding: 0 3px;
+                }
+            }
+        }
+    
+        .mobile-menu li + li, .mobile-menu, .search-form   {
+            border-color: $vermelho-escuro !important;
+            
+        }
+    }
+
+    .related.products .owl-nav {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        div {
+            border-radius: 50px;
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .woocommerce-info, .woocommerce-message {
+        padding: 13px 2em 14px 2em !important;
+        border-radius: 25px !important;
+        text-align: center !important;
+
+        &::before {
+           display: none !important;
+        }
+    
+        .button {
+            float: none !important;
+            display: block !important;
+            font-size: 12px !important;
+            text-align: center;
+            margin-bottom: 1rem !important;
+        }
+    }
+
+    .single-product div.product .woocommerce-tabs ul.tabs li a {
+        line-height: 1;
+    }
+
+   .single-product .single-product-controls {
+        display: none;
+    }
+
+    .single-product-controls .gf-table-cell-right {
+            display: none;
+        }
+
+        .woocommerce-cart .woocommerce-shipping-calculator p button {
+            width: 100%;
+        }
+    }
+
+@media (max-width: 625px) { 
+
+    .box-atendimento h3 {
+        font-size: 3.5rem
+    }
+
+    .icon-frete-gratis .vc_column-inner {
+            padding: 0 15%;
+        }
+
+    .single-product {
+
+        .product_title {
+            font-size: 2.5rem;
+            margin-right: initial !important;
+            text-align: center;
+        }
+
+        .price {
+            text-align: center;
+        }
+
+        .summary-product .price > ins span {
+            font-size: 2.8rem;
+        }
+
+        .summary-product .price > del span {
+            font-size: 1.8rem;
+        }
+    }
+}

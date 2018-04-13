@@ -1,0 +1,739 @@
+.top-menu {
+
+    .gf-container {
+        padding-top: 1.2rem;
+    }
+    .vc_column-inner  {
+        line-height: 0;
+    }
+    p {
+        font-size: 1.2rem; 
+    }
+
+    a span {
+        color: $branco;
+    }
+    
+    .gf-social-networks i {
+        color: $branco;
+    }
+
+    .gf-social-networks ul {
+        text-align: right;
+    }
+
+    .gf-social-networks li {
+        margin: 0 10px 10px 0;
+    }
+}
+
+//MENU DE ICONES
+
+.primary-menu {
+    background-color: $vermelho !important;
+
+    .menu-item:before {
+        display: none !important;
+    }
+
+    .menu-item a:hover {
+        color:$laranja !important;
+    }
+}
+
+
+
+.faixa-destaque {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+    p {
+        margin-top:0 !important;
+    }
+}
+
+.img-loja {
+    .ib-content {
+        padding-top: 0px !important;
+    }
+
+    img {
+        width: 82% !important;
+    }
+}
+
+//CONFIGURANDO O SUBMENU
+.main-menu .sub-menu {
+    background-color: $laranja !important;
+    
+    li a {
+        line-height: 10px !important;
+    }
+
+    li a span {
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    li a:hover span {
+        color: $vermelho !important;
+    }
+}
+.main-menu .menu-item a {
+    color: $branco;
+}
+
+.main-menu > .menu-item {
+            padding-top:0;
+            padding-bottom: 0;
+}
+
+.main-header .header-sticky-wrapper.affix-wrap {
+    height: 65px;
+}
+
+.header-sticky.affix .main-menu > li {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+
+
+
+// BOX DE PROMOÇÃO DA HOME
+
+.box-promocao {
+
+    h2 {
+        color: $vermelho;
+    }
+
+    .product-info  {
+        background: $vermelho;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        padding: 1rem;
+        min-height: 145px !important;
+    }
+
+    .product-thumb {
+        margin-bottom: 0;
+       
+    }
+    .product-thumb img {
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+    }
+}
+
+.box-promocao .product-name a  {
+    color: $branco;
+
+    &:hover {
+        color: $laranja;
+    }
+}
+
+//ESPACO MINIMO PARA ALINHAR OS PREÇOS
+.product-heading {
+    min-height: 50px;
+}
+
+.product-name a {
+    font-family: 'Open Sans' !important; 
+    font-size: 1.6rem;
+    line-height: 0 !important;
+    font-weight: 600;
+}
+
+.box-nossos-produtos h2 {
+    color: $laranja;
+}
+
+.product-meta .price del {
+    display: block;
+    span {
+        color: $branco;
+    }
+}
+
+// BOX DE NOSSOS PRODUTOS
+
+.box-nossos-produtos ul.nav-tabs.gf-cate-filter {
+    li a {
+        color: $cinza-claro;
+        padding: 1rem 2rem;
+        font-size: 1.6rem;
+        
+    }
+
+    li.active a {
+        color: $branco !important;
+        background: $laranja;
+        border: none !important;
+        border-radius: 50px;
+    
+    }
+
+    li a:hover {
+        color: $branco !important;
+       background: $laranja;
+       border: none !important;
+       border-radius: 50px;
+   }
+
+   li + li {
+    margin-left: 10px !important;
+   }
+}
+
+.box-nossos-produtos {
+
+    h2 {
+        color: $vermelho;
+    }
+
+    .product-thumb img {
+        border-radius: 35px;
+    }
+}
+
+.box-regioes-duvidas {
+
+    .wpb_text_column {
+        margin-bottom: 1rem;
+    }
+    .vc_column-inner  {
+        padding-top: 4rem !important;
+        padding-bottom: 4rem;
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+
+    h2 {
+        color: $branco;
+        margin-top: 0;
+    }
+
+    .txt-padrao {
+        margin-bottom: 1rem;
+    }
+
+    p {
+        color: $branco;
+    }
+
+    .btn.btn-primary {
+        color: $laranja;
+        border-radius: 50px;
+        border:none;
+        background: $branco;
+        margin-top: 1rem;
+    }
+
+    .btn-duvidas button {
+        color: $azul !important;
+    }
+
+}
+
+// RODAPE
+
+.box-atendimento {
+
+    .wpb_text_column {
+        margin-bottom:0; 
+    }
+
+    h3 {
+        color: $vermelho;
+        font-size: 5rem;
+    }
+
+    i {
+        color: $vermelho;
+    }
+
+    img {
+        width: 75% !important; 
+    }
+    
+}
+
+.box-rodape {
+    line-height: normal;
+    background: $vermelho;
+    h5 {    
+        margin-top: 1rem !important;
+        color: $laranja;
+        font-family: 'ruth-script';
+        font-size: 3rem;
+    }
+
+    .wpb_text_column {
+        margin-bottom: 0;
+    }
+
+    p {
+        color: $branco;
+        font-size: 1.5rem
+    }
+
+    .gf-social-networks li {
+        margin-right: 1rem;
+        font-size: 2rem;
+        
+        a {
+            color: $branco !important;
+        }
+        a:hover {
+            color: $vermelho-escuro !important;
+        }
+    }
+
+    .btn.btn-primary {
+        border: 3px solid $branco;
+        border-radius: 50px;
+        margin-top: 1.5rem;
+        text-transform: none;
+        font-family: 'ruth-script';
+        font-size: 2.3rem;
+        background: none;
+        color: $branco;
+        font-weight: 400;
+
+        &:hover {
+            color: $vermelho-escuro;
+            border-color: $vermelho-escuro; 
+        }
+    }
+    
+    
+}
+
+.box-subrodape {
+
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem;
+    border-top: 1px solid $branco;
+    background: $vermelho;
+    line-height: normal;
+
+    .wpb_text_column {
+        margin-bottom: 0;
+    }
+
+    p {
+        color: $branco;
+        font-size: 1.2rem;
+    }
+
+    a {
+        color: $branco;
+        font-weight: 700;
+
+        &:hover {
+            color:$vermelho-escuro;
+            text-decoration: none;
+        }
+    }
+}
+
+
+.list-menu-rodape  ul.menu li {
+    margin-bottom: 0rem !important;
+    margin-top: 0rem !important;
+
+    a span {
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        line-height: normal;
+    }
+}
+
+.list-menu-rodape {
+    a {
+        color: $branco !important;
+    }
+    .current-menu-item > a {
+        color: $vermelho-escuro !important;
+        font-weight: 700 !important;
+    }
+
+    ul.menu li a:hover {
+        border-bottom-color: $vermelho-escuro !important;
+        color: $vermelho-escuro !important;
+    }
+
+}
+
+//MENU TOPO 
+
+.customize-search .search-form .search-submit {
+    background: $laranja;    
+    border-radius: 50px;
+    padding: 0 14px;
+
+    i {
+        color: $branco;
+    }
+
+    &:hover {
+        background:$azul;
+    }
+}
+
+.customize-search .search-form {
+
+        background: #F5F5F5;
+        padding: 0.5rem 0.5rem;
+        border-radius: 50px;
+        border: 5px solid #F5F5F5;
+    
+
+        .search-field {
+            border-bottom: none;
+            font-weight: 400;
+            padding-left: 1rem;
+            color: $cor-texto;
+            text-transform: none;
+        }
+    }
+
+// CUSTOMIZANDO O TOPO DA BARRA DE PESQUIZA
+
+.main-menu li.current-menu-item > a {
+    color: $laranja !important;
+}
+
+
+.header-above {
+   
+    .shopping-cart-icon {
+
+        border-left: 1px solid $cor-texto2  !important;
+        padding-left: 3rem;
+
+        span {
+            background-color: $laranja !important;
+        }
+
+        i {
+            color: $cor-texto2 !important;
+        }
+    }
+
+    .logo-header {
+        padding-left: 0px !important;
+
+        img {
+            padding-bottom: 0;
+            padding-top:0;
+        }
+    }
+
+    .header-customize-left {
+        display: none;
+    }
+
+    .customize-search .search-form {
+        width: 450px;
+        height: 50px;
+    }
+
+    input {
+        border:none !important;
+        font-size: 1rem;
+    }
+
+// CONFIGURANDO MENU CADASTRE-SE E LOGIN
+
+    .customize-sidebar {
+
+        .menu-item img {
+            padding-right: 0px !important;
+        }
+
+        .widget_nav_menu li a {
+            display: inline;
+            margin-right: 1.2rem;
+        }
+        
+        .widget_nav_menu li a:hover span {
+            color: $laranja;
+        }
+
+        .widget_nav_menu li a span {
+            color: $cor-texto2;
+            text-transform: none;
+            letter-spacing: normal;
+            font-weight: 700;
+    
+        }
+
+        .widget_nav_menu ul li {
+            display: inline !important;
+        }
+    }
+   
+}
+//RODAPE LINHA
+
+.box-atendimento.rodape-internas {
+    border-top: 1px solid $cinza-claro;
+}
+
+.rodape-internas {
+    margin-bottom: 2rem;    
+}
+
+//CONFIGURANDO AS REGIÕES ATENDIDAS | DÚVIDAS
+
+.box-regioes-duvidas {
+    .vc_col-sm-6 button:hover {
+        background: $cor-texto3;
+    }
+}
+
+//CONFIGURANDO O BOTÃO DE VOLTAR NO TOPO
+
+.back-to-top {
+    border-radius: 50px;
+    &:hover {
+        background-color: $azul;
+    }
+}
+
+//CONFIGURANDO HOVER DO BOX DE PRODUTOS
+
+.product-thumb .product-actions {
+    .product-action-item.add_to_cart_tooltip a {
+        background-color: $azul;
+    }
+}
+
+
+//CONFIGURANDO A PAGINA DE MINHA CONTA
+
+.woocommerce-account .woocommerce {
+
+    button {
+        border-radius: 50px;
+        background-color: $vermelho;
+        border: none;
+
+        &:hover {
+            background-color: $cor-texto3 !important;
+            color: $branco;
+        }
+
+    }
+
+    .woocommerce-form, .register {
+        margin-top: 1rem;
+    }
+    h2 {
+        color: $laranja;
+        margin-bottom: 0 !important;
+    }
+    input {
+        border-radius: 50px !important;
+        border: 1px solid $cor-texto2 !important;
+        background-color: initial !important;
+    }
+
+    label {
+        letter-spacing: normal;
+    }
+}
+
+
+//PADRAO PARA OS BOTÕES DAS PAGINAS INTERNAS
+.btn-quem-somos a {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    @include botaoPadrao ($laranja, $branco, 2rem);
+    padding: 2rem 3rem !important;
+   
+}
+
+.conheca-produtos h2 {
+    margin-top: 0rem !important;
+}
+
+//CONFIGURANDO ACORDEAO
+.box-politica {
+
+    .vc_active a {
+
+        background-color: $laranja !important;
+    }
+
+    h4 {
+        font-family: 'Open Sans' !important; 
+        font-weight: 700;
+    }
+
+    h4 a {
+        background-color: #E9E9E9 !important;
+        color: $branco !important;
+
+        &:hover {
+            background-color: $laranja !important;
+        }
+    }
+}
+
+// FORMULARIO CONTATO
+.form-contato {
+
+    input[type="text"], input[type="email"], input[type="tel"] {
+        border: 1px solid $cor-texto3;
+        border-radius: 50px;
+        background: none !important; 
+        font-weight: 400;
+        width: 100%;
+        
+
+    }
+    label {
+        color:$cor-texto;
+        width: 100%;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+    }
+    textarea {
+        width: 100%;
+        background: none !important; 
+        border-radius: 25px;
+    }
+
+   p {
+       text-align: center;
+   }
+
+    input[type="submit"] {
+        @include botaoPadrao($laranja, $branco, 2rem );
+        padding: 2rem 5rem !important;
+        margin-bottom: 3rem;
+    }
+
+}
+
+// MAPA
+.mapa-contato {
+
+    .wpb_text_column  {
+        margin-bottom: 0;
+    }
+
+    h2 {
+        color: $vermelho;
+        margin-bottom: 0;
+        line-height: normal;
+    }
+
+    p {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 3rem !important;
+    }
+}
+
+//BOX DE VANTAGENS
+
+.box-vantagens {
+    .wpb_text_column {
+        margin-bottom: 0;
+    }
+
+    //padding: 8rem 0!important;
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
+
+    margin-top: 6rem !important;
+
+    h2 {
+
+        font-family: 'Open Sans' !important; 
+        font-weight: 700;
+        color: $branco;
+        margin-bottom: 1rem !important;
+        font-size: 3rem;
+        letter-spacing: normal;
+    }
+}
+
+.frase-destaque {
+    margin-bottom: 0;
+
+    h3 {
+        font-weight: 400;
+        font-size: 6rem;
+    }
+}
+
+.icons-empresas {
+    h4 {
+        font-family: 'Open Sans' !important; 
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    img {
+        width: 40%;
+    }
+}
+
+.box-na-sua-empresa {
+    padding-top: 8rem !important;
+    padding-bottom: 4rem !important;
+    background-color: #F5F5F5;
+    h2 {
+        color: $vermelho;
+    }
+    .wpb_text_column {
+        margin-bottom: 0;
+    }
+}
+
+// LINKS TOP BAR
+.links-topbar {
+    float: right;
+    margin-bottom: 1rem;
+    margin-top: -0.5rem;
+
+    ul li {
+        margin-top: 0;
+        border-right: 1px solid $branco;
+        padding: 0 1rem;
+    }
+
+    ul li a span {
+        letter-spacing: normal;
+        line-height: normal;
+        text-transform: none;
+        font-weight: 300;
+        font-size: 1.2rem;
+        
+    }
+
+    ul li a:hover span {
+        color: $laranja;
+    }
+}
+
+.box-redes-topo {
+    float: right;
+    margin-left: 0.8rem;
+}
+
+.top-bar .gf-social-networks i:hover {
+    color:$laranja;
+}
+
+.return-to-shop a.button {
+    background: $laranja;
+    border-radius: 50px;
+    border:none;
+
+}

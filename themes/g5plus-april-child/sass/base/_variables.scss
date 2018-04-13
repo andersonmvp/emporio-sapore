@@ -1,0 +1,33 @@
+//CORES INSTITUICONAIS
+$vermelho: #8f3132;
+$vermelho-escuro:#5B1D1D;
+$laranja: #E8A970;
+$azul: #3AAFC4;
+
+$branco: #FFFFFF;
+$cinza-claro: #A2A2A2;
+
+//CORES PARA TEXTO
+$cor-texto: #707070;
+
+//COR USADO NO MENU DO TOPO
+$cor-texto2: #9B9B9B;
+
+//COR PARA TEXTO DO TITULO PAGINA DE PRODUTO
+$cor-texto3: #555555;
+
+
+//DEFININDO PADRAO DOS BOTÕES
+@mixin botaoPadrao ($corFundo, $corTexto, $tamanhoTexto) {
+        border-radius: 50px !important;
+        background-color: $corFundo;
+        border: none;
+        color: $corTexto !important;
+        font-size: $tamanhoTexto !important;
+        letter-spacing: normal;
+
+        &:hover {
+            background-color: $cor-texto3 !important;
+            color: $corTexto !important;
+        }
+}

@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'Ruth-Script';
+  src: url('Ruth-Script.eot?#iefix') format('embedded-opentype'),  url('Ruth-Script.otf')  format('opentype'),
+	     url('Ruth-Script.woff') format('woff'), url('Ruth-Script.ttf')  format('truetype'), url('Ruth-Script.svg#Ruth-Script') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
