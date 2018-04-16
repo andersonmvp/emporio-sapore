@@ -38,9 +38,32 @@ ins .woocommerce-Price-currencySymbol {
 }
 
 .product-flash {
-    font-size: 18px;
-    line-height: 30px;
-    height: 30px;
+    line-height: 25px;
+    height: 25px;
+}
+
+.tags_content_product {
+
+    background: #fff;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $vermelho;
+    padding-left: 10px;
+    padding-right: 10px; 
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    margin-top: 1rem;
+
+}
+
+.product-content-product > .product-item-inner {
+
+position: relative;
+
 }
 
 //EDITANDO O BOX DE NOSSOS PRODUTOS

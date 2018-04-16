@@ -1,0 +1,2212 @@
+04-16-2018 @ 15:02:24 - Getting the order installments...
+04-16-2018 @ 15:02:25 - Failed to get the installments: Array
+(
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Mon, 16 Apr 2018 15:02:25 GMT
+                    [content-type] => application/json
+                    [content-length] => 252
+                    [server] => openresty
+                    [access-control-allow-credentials] => true
+                    [access-control-allow-headers] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                    [access-control-allow-methods] => GET,PUT,POST,DELETE
+                    [access-control-allow-origin] => *
+                    [charset] => utf-8
+                    [x-ratelimit-limit] => 30
+                    [x-ratelimit-remaining] => 29
+                    [x-ratelimit-reset] => 1523890947
+                    [x-response-time] => 3ms
+                )
+
+        )
+
+    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+    [response] => Array
+        (
+            [code] => 401
+            [message] => Unauthorized
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [response:protected] => Requests_Response Object
+                (
+                    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [raw] => HTTP/1.1 401 Unauthorized
+Date: Mon, 16 Apr 2018 15:02:25 GMT
+Content-Type: application/json
+Content-Length: 252
+Connection: close
+Server: openresty
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Origin: *
+Charset: utf-8
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 29
+X-Ratelimit-Reset: 1523890947
+X-Response-Time: 3ms
+
+{"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [headers] => Requests_Response_Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Array
+                                        (
+                                            [0] => Mon, 16 Apr 2018 15:02:25 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 252
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => openresty
+                                        )
+
+                                    [access-control-allow-credentials] => Array
+                                        (
+                                            [0] => true
+                                        )
+
+                                    [access-control-allow-headers] => Array
+                                        (
+                                            [0] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                                        )
+
+                                    [access-control-allow-methods] => Array
+                                        (
+                                            [0] => GET,PUT,POST,DELETE
+                                        )
+
+                                    [access-control-allow-origin] => Array
+                                        (
+                                            [0] => *
+                                        )
+
+                                    [charset] => Array
+                                        (
+                                            [0] => utf-8
+                                        )
+
+                                    [x-ratelimit-limit] => Array
+                                        (
+                                            [0] => 30
+                                        )
+
+                                    [x-ratelimit-remaining] => Array
+                                        (
+                                            [0] => 29
+                                        )
+
+                                    [x-ratelimit-reset] => Array
+                                        (
+                                            [0] => 1523890947
+                                        )
+
+                                    [x-response-time] => Array
+                                        (
+                                            [0] => 3ms
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 401
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://api.pagar.me/1/transactions/calculate_installments_amount
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => Requests_Cookie_Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+            [data] => 
+            [headers] => 
+            [status] => 
+        )
+
+)
+
+04-16-2018 @ 15:02:27 - Getting the order installments...
+04-16-2018 @ 15:02:28 - Failed to get the installments: Array
+(
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Mon, 16 Apr 2018 15:02:28 GMT
+                    [content-type] => application/json
+                    [content-length] => 252
+                    [server] => openresty
+                    [access-control-allow-credentials] => true
+                    [access-control-allow-headers] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                    [access-control-allow-methods] => GET,PUT,POST,DELETE
+                    [access-control-allow-origin] => *
+                    [charset] => utf-8
+                    [x-ratelimit-limit] => 30
+                    [x-ratelimit-remaining] => 29
+                    [x-ratelimit-reset] => 1523890950
+                    [x-response-time] => 5ms
+                )
+
+        )
+
+    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+    [response] => Array
+        (
+            [code] => 401
+            [message] => Unauthorized
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [response:protected] => Requests_Response Object
+                (
+                    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [raw] => HTTP/1.1 401 Unauthorized
+Date: Mon, 16 Apr 2018 15:02:28 GMT
+Content-Type: application/json
+Content-Length: 252
+Connection: close
+Server: openresty
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Origin: *
+Charset: utf-8
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 29
+X-Ratelimit-Reset: 1523890950
+X-Response-Time: 5ms
+
+{"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [headers] => Requests_Response_Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Array
+                                        (
+                                            [0] => Mon, 16 Apr 2018 15:02:28 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 252
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => openresty
+                                        )
+
+                                    [access-control-allow-credentials] => Array
+                                        (
+                                            [0] => true
+                                        )
+
+                                    [access-control-allow-headers] => Array
+                                        (
+                                            [0] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                                        )
+
+                                    [access-control-allow-methods] => Array
+                                        (
+                                            [0] => GET,PUT,POST,DELETE
+                                        )
+
+                                    [access-control-allow-origin] => Array
+                                        (
+                                            [0] => *
+                                        )
+
+                                    [charset] => Array
+                                        (
+                                            [0] => utf-8
+                                        )
+
+                                    [x-ratelimit-limit] => Array
+                                        (
+                                            [0] => 30
+                                        )
+
+                                    [x-ratelimit-remaining] => Array
+                                        (
+                                            [0] => 29
+                                        )
+
+                                    [x-ratelimit-reset] => Array
+                                        (
+                                            [0] => 1523890950
+                                        )
+
+                                    [x-response-time] => Array
+                                        (
+                                            [0] => 5ms
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 401
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://api.pagar.me/1/transactions/calculate_installments_amount
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => Requests_Cookie_Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+            [data] => 
+            [headers] => 
+            [status] => 
+        )
+
+)
+
+04-16-2018 @ 15:07:08 - Getting the order installments...
+04-16-2018 @ 15:07:08 - Failed to get the installments: Array
+(
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Mon, 16 Apr 2018 15:07:08 GMT
+                    [content-type] => application/json
+                    [content-length] => 252
+                    [server] => openresty
+                    [access-control-allow-credentials] => true
+                    [access-control-allow-headers] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                    [access-control-allow-methods] => GET,PUT,POST,DELETE
+                    [access-control-allow-origin] => *
+                    [charset] => utf-8
+                    [x-ratelimit-limit] => 30
+                    [x-ratelimit-remaining] => 29
+                    [x-ratelimit-reset] => 1523891230
+                    [x-response-time] => 5ms
+                )
+
+        )
+
+    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+    [response] => Array
+        (
+            [code] => 401
+            [message] => Unauthorized
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [response:protected] => Requests_Response Object
+                (
+                    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [raw] => HTTP/1.1 401 Unauthorized
+Date: Mon, 16 Apr 2018 15:07:08 GMT
+Content-Type: application/json
+Content-Length: 252
+Connection: close
+Server: openresty
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Origin: *
+Charset: utf-8
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 29
+X-Ratelimit-Reset: 1523891230
+X-Response-Time: 5ms
+
+{"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [headers] => Requests_Response_Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Array
+                                        (
+                                            [0] => Mon, 16 Apr 2018 15:07:08 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 252
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => openresty
+                                        )
+
+                                    [access-control-allow-credentials] => Array
+                                        (
+                                            [0] => true
+                                        )
+
+                                    [access-control-allow-headers] => Array
+                                        (
+                                            [0] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                                        )
+
+                                    [access-control-allow-methods] => Array
+                                        (
+                                            [0] => GET,PUT,POST,DELETE
+                                        )
+
+                                    [access-control-allow-origin] => Array
+                                        (
+                                            [0] => *
+                                        )
+
+                                    [charset] => Array
+                                        (
+                                            [0] => utf-8
+                                        )
+
+                                    [x-ratelimit-limit] => Array
+                                        (
+                                            [0] => 30
+                                        )
+
+                                    [x-ratelimit-remaining] => Array
+                                        (
+                                            [0] => 29
+                                        )
+
+                                    [x-ratelimit-reset] => Array
+                                        (
+                                            [0] => 1523891230
+                                        )
+
+                                    [x-response-time] => Array
+                                        (
+                                            [0] => 5ms
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 401
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://api.pagar.me/1/transactions/calculate_installments_amount
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => Requests_Cookie_Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+            [data] => 
+            [headers] => 
+            [status] => 
+        )
+
+)
+
+04-16-2018 @ 15:07:11 - Getting the order installments...
+04-16-2018 @ 15:07:11 - Failed to get the installments: Array
+(
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Mon, 16 Apr 2018 15:07:11 GMT
+                    [content-type] => application/json
+                    [content-length] => 252
+                    [server] => openresty
+                    [access-control-allow-credentials] => true
+                    [access-control-allow-headers] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                    [access-control-allow-methods] => GET,PUT,POST,DELETE
+                    [access-control-allow-origin] => *
+                    [charset] => utf-8
+                    [x-ratelimit-limit] => 30
+                    [x-ratelimit-remaining] => 29
+                    [x-ratelimit-reset] => 1523891233
+                    [x-response-time] => 4ms
+                )
+
+        )
+
+    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+    [response] => Array
+        (
+            [code] => 401
+            [message] => Unauthorized
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [response:protected] => Requests_Response Object
+                (
+                    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [raw] => HTTP/1.1 401 Unauthorized
+Date: Mon, 16 Apr 2018 15:07:11 GMT
+Content-Type: application/json
+Content-Length: 252
+Connection: close
+Server: openresty
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Origin: *
+Charset: utf-8
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 29
+X-Ratelimit-Reset: 1523891233
+X-Response-Time: 4ms
+
+{"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [headers] => Requests_Response_Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Array
+                                        (
+                                            [0] => Mon, 16 Apr 2018 15:07:11 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 252
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => openresty
+                                        )
+
+                                    [access-control-allow-credentials] => Array
+                                        (
+                                            [0] => true
+                                        )
+
+                                    [access-control-allow-headers] => Array
+                                        (
+                                            [0] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                                        )
+
+                                    [access-control-allow-methods] => Array
+                                        (
+                                            [0] => GET,PUT,POST,DELETE
+                                        )
+
+                                    [access-control-allow-origin] => Array
+                                        (
+                                            [0] => *
+                                        )
+
+                                    [charset] => Array
+                                        (
+                                            [0] => utf-8
+                                        )
+
+                                    [x-ratelimit-limit] => Array
+                                        (
+                                            [0] => 30
+                                        )
+
+                                    [x-ratelimit-remaining] => Array
+                                        (
+                                            [0] => 29
+                                        )
+
+                                    [x-ratelimit-reset] => Array
+                                        (
+                                            [0] => 1523891233
+                                        )
+
+                                    [x-response-time] => Array
+                                        (
+                                            [0] => 4ms
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 401
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://api.pagar.me/1/transactions/calculate_installments_amount
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => Requests_Cookie_Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+            [data] => 
+            [headers] => 
+            [status] => 
+        )
+
+)
+
+04-16-2018 @ 15:10:12 - Getting the order installments...
+04-16-2018 @ 15:10:12 - Failed to get the installments: Array
+(
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Mon, 16 Apr 2018 15:10:12 GMT
+                    [content-type] => application/json
+                    [content-length] => 252
+                    [server] => openresty
+                    [access-control-allow-credentials] => true
+                    [access-control-allow-headers] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                    [access-control-allow-methods] => GET,PUT,POST,DELETE
+                    [access-control-allow-origin] => *
+                    [charset] => utf-8
+                    [x-ratelimit-limit] => 30
+                    [x-ratelimit-remaining] => 29
+                    [x-ratelimit-reset] => 1523891414
+                    [x-response-time] => 5ms
+                )
+
+        )
+
+    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+    [response] => Array
+        (
+            [code] => 401
+            [message] => Unauthorized
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [response:protected] => Requests_Response Object
+                (
+                    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [raw] => HTTP/1.1 401 Unauthorized
+Date: Mon, 16 Apr 2018 15:10:12 GMT
+Content-Type: application/json
+Content-Length: 252
+Connection: close
+Server: openresty
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Origin: *
+Charset: utf-8
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 29
+X-Ratelimit-Reset: 1523891414
+X-Response-Time: 5ms
+
+{"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [headers] => Requests_Response_Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Array
+                                        (
+                                            [0] => Mon, 16 Apr 2018 15:10:12 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 252
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => openresty
+                                        )
+
+                                    [access-control-allow-credentials] => Array
+                                        (
+                                            [0] => true
+                                        )
+
+                                    [access-control-allow-headers] => Array
+                                        (
+                                            [0] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                                        )
+
+                                    [access-control-allow-methods] => Array
+                                        (
+                                            [0] => GET,PUT,POST,DELETE
+                                        )
+
+                                    [access-control-allow-origin] => Array
+                                        (
+                                            [0] => *
+                                        )
+
+                                    [charset] => Array
+                                        (
+                                            [0] => utf-8
+                                        )
+
+                                    [x-ratelimit-limit] => Array
+                                        (
+                                            [0] => 30
+                                        )
+
+                                    [x-ratelimit-remaining] => Array
+                                        (
+                                            [0] => 29
+                                        )
+
+                                    [x-ratelimit-reset] => Array
+                                        (
+                                            [0] => 1523891414
+                                        )
+
+                                    [x-response-time] => Array
+                                        (
+                                            [0] => 5ms
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 401
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://api.pagar.me/1/transactions/calculate_installments_amount
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => Requests_Cookie_Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+            [data] => 
+            [headers] => 
+            [status] => 
+        )
+
+)
+
+04-16-2018 @ 15:10:15 - Getting the order installments...
+04-16-2018 @ 15:10:16 - Failed to get the installments: Array
+(
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Mon, 16 Apr 2018 15:10:16 GMT
+                    [content-type] => application/json
+                    [content-length] => 252
+                    [server] => openresty
+                    [access-control-allow-credentials] => true
+                    [access-control-allow-headers] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                    [access-control-allow-methods] => GET,PUT,POST,DELETE
+                    [access-control-allow-origin] => *
+                    [charset] => utf-8
+                    [x-ratelimit-limit] => 30
+                    [x-ratelimit-remaining] => 29
+                    [x-ratelimit-reset] => 1523891418
+                    [x-response-time] => 3ms
+                )
+
+        )
+
+    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+    [response] => Array
+        (
+            [code] => 401
+            [message] => Unauthorized
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [response:protected] => Requests_Response Object
+                (
+                    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [raw] => HTTP/1.1 401 Unauthorized
+Date: Mon, 16 Apr 2018 15:10:16 GMT
+Content-Type: application/json
+Content-Length: 252
+Connection: close
+Server: openresty
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Origin: *
+Charset: utf-8
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 29
+X-Ratelimit-Reset: 1523891418
+X-Response-Time: 3ms
+
+{"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [headers] => Requests_Response_Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Array
+                                        (
+                                            [0] => Mon, 16 Apr 2018 15:10:16 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 252
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => openresty
+                                        )
+
+                                    [access-control-allow-credentials] => Array
+                                        (
+                                            [0] => true
+                                        )
+
+                                    [access-control-allow-headers] => Array
+                                        (
+                                            [0] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                                        )
+
+                                    [access-control-allow-methods] => Array
+                                        (
+                                            [0] => GET,PUT,POST,DELETE
+                                        )
+
+                                    [access-control-allow-origin] => Array
+                                        (
+                                            [0] => *
+                                        )
+
+                                    [charset] => Array
+                                        (
+                                            [0] => utf-8
+                                        )
+
+                                    [x-ratelimit-limit] => Array
+                                        (
+                                            [0] => 30
+                                        )
+
+                                    [x-ratelimit-remaining] => Array
+                                        (
+                                            [0] => 29
+                                        )
+
+                                    [x-ratelimit-reset] => Array
+                                        (
+                                            [0] => 1523891418
+                                        )
+
+                                    [x-response-time] => Array
+                                        (
+                                            [0] => 3ms
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 401
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://api.pagar.me/1/transactions/calculate_installments_amount
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => Requests_Cookie_Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+            [data] => 
+            [headers] => 
+            [status] => 
+        )
+
+)
+
+04-16-2018 @ 15:13:43 - Getting the order installments...
+04-16-2018 @ 15:13:43 - Failed to get the installments: Array
+(
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Mon, 16 Apr 2018 15:13:43 GMT
+                    [content-type] => application/json
+                    [content-length] => 252
+                    [server] => openresty
+                    [access-control-allow-credentials] => true
+                    [access-control-allow-headers] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                    [access-control-allow-methods] => GET,PUT,POST,DELETE
+                    [access-control-allow-origin] => *
+                    [charset] => utf-8
+                    [x-ratelimit-limit] => 30
+                    [x-ratelimit-remaining] => 29
+                    [x-ratelimit-reset] => 1523891625
+                    [x-response-time] => 5ms
+                )
+
+        )
+
+    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+    [response] => Array
+        (
+            [code] => 401
+            [message] => Unauthorized
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [response:protected] => Requests_Response Object
+                (
+                    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [raw] => HTTP/1.1 401 Unauthorized
+Date: Mon, 16 Apr 2018 15:13:43 GMT
+Content-Type: application/json
+Content-Length: 252
+Connection: close
+Server: openresty
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Origin: *
+Charset: utf-8
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 29
+X-Ratelimit-Reset: 1523891625
+X-Response-Time: 5ms
+
+{"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [headers] => Requests_Response_Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Array
+                                        (
+                                            [0] => Mon, 16 Apr 2018 15:13:43 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 252
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => openresty
+                                        )
+
+                                    [access-control-allow-credentials] => Array
+                                        (
+                                            [0] => true
+                                        )
+
+                                    [access-control-allow-headers] => Array
+                                        (
+                                            [0] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                                        )
+
+                                    [access-control-allow-methods] => Array
+                                        (
+                                            [0] => GET,PUT,POST,DELETE
+                                        )
+
+                                    [access-control-allow-origin] => Array
+                                        (
+                                            [0] => *
+                                        )
+
+                                    [charset] => Array
+                                        (
+                                            [0] => utf-8
+                                        )
+
+                                    [x-ratelimit-limit] => Array
+                                        (
+                                            [0] => 30
+                                        )
+
+                                    [x-ratelimit-remaining] => Array
+                                        (
+                                            [0] => 29
+                                        )
+
+                                    [x-ratelimit-reset] => Array
+                                        (
+                                            [0] => 1523891625
+                                        )
+
+                                    [x-response-time] => Array
+                                        (
+                                            [0] => 5ms
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 401
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://api.pagar.me/1/transactions/calculate_installments_amount
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => Requests_Cookie_Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+            [data] => 
+            [headers] => 
+            [status] => 
+        )
+
+)
+
+04-16-2018 @ 15:13:46 - Getting the order installments...
+04-16-2018 @ 15:13:46 - Failed to get the installments: Array
+(
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Mon, 16 Apr 2018 15:13:46 GMT
+                    [content-type] => application/json
+                    [content-length] => 252
+                    [server] => openresty
+                    [access-control-allow-credentials] => true
+                    [access-control-allow-headers] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                    [access-control-allow-methods] => GET,PUT,POST,DELETE
+                    [access-control-allow-origin] => *
+                    [charset] => utf-8
+                    [x-ratelimit-limit] => 30
+                    [x-ratelimit-remaining] => 29
+                    [x-ratelimit-reset] => 1523891628
+                    [x-response-time] => 3ms
+                )
+
+        )
+
+    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+    [response] => Array
+        (
+            [code] => 401
+            [message] => Unauthorized
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [response:protected] => Requests_Response Object
+                (
+                    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [raw] => HTTP/1.1 401 Unauthorized
+Date: Mon, 16 Apr 2018 15:13:46 GMT
+Content-Type: application/json
+Content-Length: 252
+Connection: close
+Server: openresty
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Origin: *
+Charset: utf-8
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 29
+X-Ratelimit-Reset: 1523891628
+X-Response-Time: 3ms
+
+{"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=2250&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [headers] => Requests_Response_Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Array
+                                        (
+                                            [0] => Mon, 16 Apr 2018 15:13:46 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 252
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => openresty
+                                        )
+
+                                    [access-control-allow-credentials] => Array
+                                        (
+                                            [0] => true
+                                        )
+
+                                    [access-control-allow-headers] => Array
+                                        (
+                                            [0] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                                        )
+
+                                    [access-control-allow-methods] => Array
+                                        (
+                                            [0] => GET,PUT,POST,DELETE
+                                        )
+
+                                    [access-control-allow-origin] => Array
+                                        (
+                                            [0] => *
+                                        )
+
+                                    [charset] => Array
+                                        (
+                                            [0] => utf-8
+                                        )
+
+                                    [x-ratelimit-limit] => Array
+                                        (
+                                            [0] => 30
+                                        )
+
+                                    [x-ratelimit-remaining] => Array
+                                        (
+                                            [0] => 29
+                                        )
+
+                                    [x-ratelimit-reset] => Array
+                                        (
+                                            [0] => 1523891628
+                                        )
+
+                                    [x-response-time] => Array
+                                        (
+                                            [0] => 3ms
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 401
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://api.pagar.me/1/transactions/calculate_installments_amount
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => Requests_Cookie_Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+            [data] => 
+            [headers] => 
+            [status] => 
+        )
+
+)
+
+04-16-2018 @ 15:27:27 - Getting the order installments...
+04-16-2018 @ 15:27:27 - Failed to get the installments: Array
+(
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Mon, 16 Apr 2018 15:27:27 GMT
+                    [content-type] => application/json
+                    [content-length] => 252
+                    [server] => openresty
+                    [access-control-allow-credentials] => true
+                    [access-control-allow-headers] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                    [access-control-allow-methods] => GET,PUT,POST,DELETE
+                    [access-control-allow-origin] => *
+                    [charset] => utf-8
+                    [x-ratelimit-limit] => 30
+                    [x-ratelimit-remaining] => 29
+                    [x-ratelimit-reset] => 1523892449
+                    [x-response-time] => 5ms
+                )
+
+        )
+
+    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=4500&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+    [response] => Array
+        (
+            [code] => 401
+            [message] => Unauthorized
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [response:protected] => Requests_Response Object
+                (
+                    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=4500&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [raw] => HTTP/1.1 401 Unauthorized
+Date: Mon, 16 Apr 2018 15:27:27 GMT
+Content-Type: application/json
+Content-Length: 252
+Connection: close
+Server: openresty
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Origin: *
+Charset: utf-8
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 29
+X-Ratelimit-Reset: 1523892449
+X-Response-Time: 5ms
+
+{"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=4500&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [headers] => Requests_Response_Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Array
+                                        (
+                                            [0] => Mon, 16 Apr 2018 15:27:27 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 252
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => openresty
+                                        )
+
+                                    [access-control-allow-credentials] => Array
+                                        (
+                                            [0] => true
+                                        )
+
+                                    [access-control-allow-headers] => Array
+                                        (
+                                            [0] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                                        )
+
+                                    [access-control-allow-methods] => Array
+                                        (
+                                            [0] => GET,PUT,POST,DELETE
+                                        )
+
+                                    [access-control-allow-origin] => Array
+                                        (
+                                            [0] => *
+                                        )
+
+                                    [charset] => Array
+                                        (
+                                            [0] => utf-8
+                                        )
+
+                                    [x-ratelimit-limit] => Array
+                                        (
+                                            [0] => 30
+                                        )
+
+                                    [x-ratelimit-remaining] => Array
+                                        (
+                                            [0] => 29
+                                        )
+
+                                    [x-ratelimit-reset] => Array
+                                        (
+                                            [0] => 1523892449
+                                        )
+
+                                    [x-response-time] => Array
+                                        (
+                                            [0] => 5ms
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 401
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://api.pagar.me/1/transactions/calculate_installments_amount
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => Requests_Cookie_Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+            [data] => 
+            [headers] => 
+            [status] => 
+        )
+
+)
+
+04-16-2018 @ 15:27:29 - Getting the order installments...
+04-16-2018 @ 15:27:30 - Failed to get the installments: Array
+(
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Mon, 16 Apr 2018 15:27:30 GMT
+                    [content-type] => application/json
+                    [content-length] => 252
+                    [server] => openresty
+                    [access-control-allow-credentials] => true
+                    [access-control-allow-headers] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                    [access-control-allow-methods] => GET,PUT,POST,DELETE
+                    [access-control-allow-origin] => *
+                    [charset] => utf-8
+                    [x-ratelimit-limit] => 30
+                    [x-ratelimit-remaining] => 29
+                    [x-ratelimit-reset] => 1523892452
+                    [x-response-time] => 3ms
+                )
+
+        )
+
+    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=4500&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+    [response] => Array
+        (
+            [code] => 401
+            [message] => Unauthorized
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [response:protected] => Requests_Response Object
+                (
+                    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=4500&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [raw] => HTTP/1.1 401 Unauthorized
+Date: Mon, 16 Apr 2018 15:27:30 GMT
+Content-Type: application/json
+Content-Length: 252
+Connection: close
+Server: openresty
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Origin: *
+Charset: utf-8
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 29
+X-Ratelimit-Reset: 1523892452
+X-Response-Time: 3ms
+
+{"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=4500&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [headers] => Requests_Response_Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Array
+                                        (
+                                            [0] => Mon, 16 Apr 2018 15:27:30 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 252
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => openresty
+                                        )
+
+                                    [access-control-allow-credentials] => Array
+                                        (
+                                            [0] => true
+                                        )
+
+                                    [access-control-allow-headers] => Array
+                                        (
+                                            [0] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                                        )
+
+                                    [access-control-allow-methods] => Array
+                                        (
+                                            [0] => GET,PUT,POST,DELETE
+                                        )
+
+                                    [access-control-allow-origin] => Array
+                                        (
+                                            [0] => *
+                                        )
+
+                                    [charset] => Array
+                                        (
+                                            [0] => utf-8
+                                        )
+
+                                    [x-ratelimit-limit] => Array
+                                        (
+                                            [0] => 30
+                                        )
+
+                                    [x-ratelimit-remaining] => Array
+                                        (
+                                            [0] => 29
+                                        )
+
+                                    [x-ratelimit-reset] => Array
+                                        (
+                                            [0] => 1523892452
+                                        )
+
+                                    [x-response-time] => Array
+                                        (
+                                            [0] => 3ms
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 401
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://api.pagar.me/1/transactions/calculate_installments_amount
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => Requests_Cookie_Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+            [data] => 
+            [headers] => 
+            [status] => 
+        )
+
+)
+
+04-16-2018 @ 15:29:45 - Getting the order installments...
+04-16-2018 @ 15:29:45 - Failed to get the installments: Array
+(
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Mon, 16 Apr 2018 15:29:45 GMT
+                    [content-type] => application/json
+                    [content-length] => 252
+                    [server] => openresty
+                    [access-control-allow-credentials] => true
+                    [access-control-allow-headers] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                    [access-control-allow-methods] => GET,PUT,POST,DELETE
+                    [access-control-allow-origin] => *
+                    [charset] => utf-8
+                    [x-ratelimit-limit] => 30
+                    [x-ratelimit-remaining] => 29
+                    [x-ratelimit-reset] => 1523892587
+                    [x-response-time] => 3ms
+                )
+
+        )
+
+    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=4500&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+    [response] => Array
+        (
+            [code] => 401
+            [message] => Unauthorized
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [response:protected] => Requests_Response Object
+                (
+                    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=4500&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [raw] => HTTP/1.1 401 Unauthorized
+Date: Mon, 16 Apr 2018 15:29:45 GMT
+Content-Type: application/json
+Content-Length: 252
+Connection: close
+Server: openresty
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Origin: *
+Charset: utf-8
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 29
+X-Ratelimit-Reset: 1523892587
+X-Response-Time: 3ms
+
+{"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=4500&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [headers] => Requests_Response_Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Array
+                                        (
+                                            [0] => Mon, 16 Apr 2018 15:29:45 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 252
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => openresty
+                                        )
+
+                                    [access-control-allow-credentials] => Array
+                                        (
+                                            [0] => true
+                                        )
+
+                                    [access-control-allow-headers] => Array
+                                        (
+                                            [0] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                                        )
+
+                                    [access-control-allow-methods] => Array
+                                        (
+                                            [0] => GET,PUT,POST,DELETE
+                                        )
+
+                                    [access-control-allow-origin] => Array
+                                        (
+                                            [0] => *
+                                        )
+
+                                    [charset] => Array
+                                        (
+                                            [0] => utf-8
+                                        )
+
+                                    [x-ratelimit-limit] => Array
+                                        (
+                                            [0] => 30
+                                        )
+
+                                    [x-ratelimit-remaining] => Array
+                                        (
+                                            [0] => 29
+                                        )
+
+                                    [x-ratelimit-reset] => Array
+                                        (
+                                            [0] => 1523892587
+                                        )
+
+                                    [x-response-time] => Array
+                                        (
+                                            [0] => 3ms
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 401
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://api.pagar.me/1/transactions/calculate_installments_amount
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => Requests_Cookie_Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+            [data] => 
+            [headers] => 
+            [status] => 
+        )
+
+)
+
+04-16-2018 @ 15:29:47 - Getting the order installments...
+04-16-2018 @ 15:29:48 - Failed to get the installments: Array
+(
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Mon, 16 Apr 2018 15:29:48 GMT
+                    [content-type] => application/json
+                    [content-length] => 252
+                    [server] => openresty
+                    [access-control-allow-credentials] => true
+                    [access-control-allow-headers] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                    [access-control-allow-methods] => GET,PUT,POST,DELETE
+                    [access-control-allow-origin] => *
+                    [charset] => utf-8
+                    [x-ratelimit-limit] => 30
+                    [x-ratelimit-remaining] => 29
+                    [x-ratelimit-reset] => 1523892590
+                    [x-response-time] => 3ms
+                )
+
+        )
+
+    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=4500&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+    [response] => Array
+        (
+            [code] => 401
+            [message] => Unauthorized
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [response:protected] => Requests_Response Object
+                (
+                    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=4500&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [raw] => HTTP/1.1 401 Unauthorized
+Date: Mon, 16 Apr 2018 15:29:48 GMT
+Content-Type: application/json
+Content-Length: 252
+Connection: close
+Server: openresty
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Origin: *
+Charset: utf-8
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 29
+X-Ratelimit-Reset: 1523892590
+X-Response-Time: 3ms
+
+{"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=4500&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [headers] => Requests_Response_Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Array
+                                        (
+                                            [0] => Mon, 16 Apr 2018 15:29:48 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 252
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => openresty
+                                        )
+
+                                    [access-control-allow-credentials] => Array
+                                        (
+                                            [0] => true
+                                        )
+
+                                    [access-control-allow-headers] => Array
+                                        (
+                                            [0] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                                        )
+
+                                    [access-control-allow-methods] => Array
+                                        (
+                                            [0] => GET,PUT,POST,DELETE
+                                        )
+
+                                    [access-control-allow-origin] => Array
+                                        (
+                                            [0] => *
+                                        )
+
+                                    [charset] => Array
+                                        (
+                                            [0] => utf-8
+                                        )
+
+                                    [x-ratelimit-limit] => Array
+                                        (
+                                            [0] => 30
+                                        )
+
+                                    [x-ratelimit-remaining] => Array
+                                        (
+                                            [0] => 29
+                                        )
+
+                                    [x-ratelimit-reset] => Array
+                                        (
+                                            [0] => 1523892590
+                                        )
+
+                                    [x-response-time] => Array
+                                        (
+                                            [0] => 3ms
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 401
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://api.pagar.me/1/transactions/calculate_installments_amount
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => Requests_Cookie_Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+            [data] => 
+            [headers] => 
+            [status] => 
+        )
+
+)
+
+04-16-2018 @ 15:31:22 - Getting the order installments...
+04-16-2018 @ 15:31:23 - Failed to get the installments: Array
+(
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Mon, 16 Apr 2018 15:31:23 GMT
+                    [content-type] => application/json
+                    [content-length] => 252
+                    [server] => openresty
+                    [access-control-allow-credentials] => true
+                    [access-control-allow-headers] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                    [access-control-allow-methods] => GET,PUT,POST,DELETE
+                    [access-control-allow-origin] => *
+                    [charset] => utf-8
+                    [x-ratelimit-limit] => 30
+                    [x-ratelimit-remaining] => 29
+                    [x-ratelimit-reset] => 1523892685
+                    [x-response-time] => 3ms
+                )
+
+        )
+
+    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=4500&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+    [response] => Array
+        (
+            [code] => 401
+            [message] => Unauthorized
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [response:protected] => Requests_Response Object
+                (
+                    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=4500&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [raw] => HTTP/1.1 401 Unauthorized
+Date: Mon, 16 Apr 2018 15:31:23 GMT
+Content-Type: application/json
+Content-Length: 252
+Connection: close
+Server: openresty
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Origin: *
+Charset: utf-8
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 29
+X-Ratelimit-Reset: 1523892685
+X-Response-Time: 3ms
+
+{"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=4500&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [headers] => Requests_Response_Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Array
+                                        (
+                                            [0] => Mon, 16 Apr 2018 15:31:23 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 252
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => openresty
+                                        )
+
+                                    [access-control-allow-credentials] => Array
+                                        (
+                                            [0] => true
+                                        )
+
+                                    [access-control-allow-headers] => Array
+                                        (
+                                            [0] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                                        )
+
+                                    [access-control-allow-methods] => Array
+                                        (
+                                            [0] => GET,PUT,POST,DELETE
+                                        )
+
+                                    [access-control-allow-origin] => Array
+                                        (
+                                            [0] => *
+                                        )
+
+                                    [charset] => Array
+                                        (
+                                            [0] => utf-8
+                                        )
+
+                                    [x-ratelimit-limit] => Array
+                                        (
+                                            [0] => 30
+                                        )
+
+                                    [x-ratelimit-remaining] => Array
+                                        (
+                                            [0] => 29
+                                        )
+
+                                    [x-ratelimit-reset] => Array
+                                        (
+                                            [0] => 1523892685
+                                        )
+
+                                    [x-response-time] => Array
+                                        (
+                                            [0] => 3ms
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 401
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://api.pagar.me/1/transactions/calculate_installments_amount
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => Requests_Cookie_Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+            [data] => 
+            [headers] => 
+            [status] => 
+        )
+
+)
+
+04-16-2018 @ 15:31:25 - Getting the order installments...
+04-16-2018 @ 15:31:26 - Failed to get the installments: Array
+(
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Mon, 16 Apr 2018 15:31:26 GMT
+                    [content-type] => application/json
+                    [content-length] => 252
+                    [server] => openresty
+                    [access-control-allow-credentials] => true
+                    [access-control-allow-headers] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                    [access-control-allow-methods] => GET,PUT,POST,DELETE
+                    [access-control-allow-origin] => *
+                    [charset] => utf-8
+                    [x-ratelimit-limit] => 30
+                    [x-ratelimit-remaining] => 29
+                    [x-ratelimit-reset] => 1523892688
+                    [x-response-time] => 6ms
+                )
+
+        )
+
+    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=4500&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+    [response] => Array
+        (
+            [code] => 401
+            [message] => Unauthorized
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [response:protected] => Requests_Response Object
+                (
+                    [body] => {"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=4500&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [raw] => HTTP/1.1 401 Unauthorized
+Date: Mon, 16 Apr 2018 15:31:26 GMT
+Content-Type: application/json
+Content-Length: 252
+Connection: close
+Server: openresty
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Origin: *
+Charset: utf-8
+X-Ratelimit-Limit: 30
+X-Ratelimit-Remaining: 29
+X-Ratelimit-Reset: 1523892688
+X-Response-Time: 6ms
+
+{"errors":[{"type":"action_forbidden","parameter_name":null,"message":"encryption_key inválida"}],"url":"/transactions/calculate_installments_amount?encryption_key=00&amount=4500&interest_rate=0&max_installments=12&free_installments=1","method":"get"}
+                    [headers] => Requests_Response_Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Array
+                                        (
+                                            [0] => Mon, 16 Apr 2018 15:31:26 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 252
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => openresty
+                                        )
+
+                                    [access-control-allow-credentials] => Array
+                                        (
+                                            [0] => true
+                                        )
+
+                                    [access-control-allow-headers] => Array
+                                        (
+                                            [0] => Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override
+                                        )
+
+                                    [access-control-allow-methods] => Array
+                                        (
+                                            [0] => GET,PUT,POST,DELETE
+                                        )
+
+                                    [access-control-allow-origin] => Array
+                                        (
+                                            [0] => *
+                                        )
+
+                                    [charset] => Array
+                                        (
+                                            [0] => utf-8
+                                        )
+
+                                    [x-ratelimit-limit] => Array
+                                        (
+                                            [0] => 30
+                                        )
+
+                                    [x-ratelimit-remaining] => Array
+                                        (
+                                            [0] => 29
+                                        )
+
+                                    [x-ratelimit-reset] => Array
+                                        (
+                                            [0] => 1523892688
+                                        )
+
+                                    [x-response-time] => Array
+                                        (
+                                            [0] => 6ms
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 401
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://api.pagar.me/1/transactions/calculate_installments_amount
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => Requests_Cookie_Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+            [data] => 
+            [headers] => 
+            [status] => 
+        )
+
+)
+

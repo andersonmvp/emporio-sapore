@@ -436,14 +436,24 @@
     }
 
     .customize-search .search-form {
-        width: 450px;
+        width: 550px;
         height: 50px;
+        margin-right: 25px;
     }
 
     input {
         border:none !important;
         font-size: 1rem;
     }
+
+
+
+    .menu-menu-cadastre-container{
+
+        float: right;
+
+    }
+
 
 // CONFIGURANDO MENU CADASTRE-SE E LOGIN
 
@@ -735,5 +745,20 @@
     background: $laranja;
     border-radius: 50px;
     border:none;
+
+}
+
+//Carrinho
+
+#calc_shipping_country_field {
+
+    display: none;
+
+}
+
+//pesquisa
+.gsf-catalog-filter-result-count {
+
+    display: none !important;
 
 }

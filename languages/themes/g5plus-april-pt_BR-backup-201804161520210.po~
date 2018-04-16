@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: G5Plus April\n"
-"POT-Creation-Date: 2017-11-07 16:51+0000\n"
-"PO-Revision-Date: 2018-01-26 12:47+0000\n"
+"POT-Creation-Date: 2018-01-26 12:47+0000\n"
+"PO-Revision-Date: 2018-01-26 12:54+0000\n"
 "Last-Translator: admin <criacao@mvpgroup.com.br>\n"
 "Language-Team: Portuguese (Brazil)\n"
 "MIME-Version: 1.0\n"
@@ -32,29 +32,25 @@ msgstr ""
 msgid "Standard"
 msgstr ""
 
-#: inc/ajax.class.php:67
-msgid ""
-"Sorry, but nothing matched your search terms. Please try again with "
-"different keywords."
-msgstr ""
-"Desculpe! Nada foi encontrado com os termos pesquisado. Por favor, tente "
-"novamente."
-
-#: inc/ajax.class.php:104 inc/ajax.class.php:138
+#: inc/ajax.class.php:106 inc/ajax.class.php:140
 msgid "Login"
 msgstr ""
 
-#: inc/helper.class.php:144
+#: inc/font-icon.class.php:64
+msgid "Organic Food"
+msgstr ""
+
+#: inc/helper.class.php:142
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr ""
 
-#: inc/helper.class.php:146
+#: inc/helper.class.php:144
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr ""
 
-#: inc/helper.class.php:150
+#: inc/helper.class.php:148
 msgid "Asides"
 msgstr ""
 
@@ -473,6 +469,10 @@ msgstr ""
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
+#: inc/portfolio.class.php:424
+msgid "Uncategorized"
+msgstr ""
+
 #: inc/register-sidebar.class.php:22
 msgid "Main"
 msgstr ""
@@ -618,7 +618,7 @@ msgid ""
 "title=\"manage widgets\" href=\"%s\">Widgets</a> "
 msgstr ""
 
-#: templates/canvas-sidebar.php:27
+#: templates/canvas-sidebar.php:26
 #, php-format
 msgid ""
 "Please insert widget into sidebar <b>Canvas</b> in Appearance > <a "
@@ -642,7 +642,13 @@ msgstr ""
 msgid "Log in to Reply"
 msgstr ""
 
-#: templates/content-page.php:11 templates/single/layout-1/content.php:21
+#: templates/content-page.php:11
+#: templates/portfolio/single/layout/layout-1.php:22
+#: templates/portfolio/single/layout/layout-2.php:21
+#: templates/portfolio/single/layout/layout-3.php:23
+#: templates/portfolio/single/layout/layout-4.php:20
+#: templates/portfolio/single/layout/layout-5.php:15
+#: templates/single/layout-1/content.php:21
 #: templates/single/layout-2/content.php:25
 #: templates/single/layout-3/content.php:24
 #: templates/single/layout-4/content.php:24
@@ -657,10 +663,10 @@ msgid ""
 "title=\"Theme Options\" href=\"%s\">Theme Options</a>"
 msgstr ""
 
-#: templates/header/desktop/header-1.php:67
-#: templates/header/desktop/header-2.php:66
-#: templates/header/desktop/header-3.php:69
-#: templates/header/desktop/header-6.php:112
+#: templates/header/desktop/header-1.php:66
+#: templates/header/desktop/header-2.php:65
+#: templates/header/desktop/header-3.php:68
+#: templates/header/desktop/header-6.php:111
 #: templates/header/desktop/header-7.php:35
 #: templates/header/desktop/header-8.php:35
 #, php-format
@@ -669,16 +675,16 @@ msgid ""
 "title=\"Menus\" href=\"%s\">Menus</a>"
 msgstr ""
 
-#: templates/header/desktop/header-4.php:70
-#: templates/header/desktop/header-5.php:72
+#: templates/header/desktop/header-4.php:69
+#: templates/header/desktop/header-5.php:69
 #, php-format
 msgid ""
 "Please assign a menu to the <b>Left Menu</b> in Appearance > <a "
 "title=\"Menus\" href=\"%s\">Menus</a>"
 msgstr ""
 
-#: templates/header/desktop/header-4.php:90
-#: templates/header/desktop/header-5.php:91
+#: templates/header/desktop/header-4.php:89
+#: templates/header/desktop/header-5.php:88
 #, php-format
 msgid ""
 "Please assign a menu to the <b>Right Menu</b> in Appearance > <a "
@@ -699,17 +705,14 @@ msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: templates/loop/content-none.php:18
-msgid ""
-"Sorry, but nothing matched your search terms. Please try again with some "
-"different keywords."
-msgstr ""
-"Desculpe! Não foi encontrado o termo pesquisado. Por favor tente novamente."
-
 #: templates/loop/content-none.php:21
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
+msgstr ""
+
+#: templates/portfolio/single/portfolio-related.php:141
+msgid "Related Portfolios"
 msgstr ""
 
 #: templates/single/post-navigation.php:19
@@ -796,14 +799,6 @@ msgstr[1] ""
 msgid "Up sells product"
 msgstr ""
 
-#: woocommerce/loop/no-products-found.php:25
-msgid "No products were found matching your selection."
-msgstr "Nenhum produto encontrado para essa seleção."
-
-#: woocommerce/cart/shipping-calculator.php:97
-msgid "Update Totals"
-msgstr "Atualizar Total"
-
 #: 404.php:20
 msgid "Oops! Page not found"
 msgstr "Oops! Página não encontrada"
@@ -874,73 +869,80 @@ msgstr "Url do Autor"
 msgid "Video URL (oEmbed) or Embed Code"
 msgstr "Video URL (oEmbed) ou Embed Code"
 
-#: inc/ajax.class.php:101 inc/ajax.class.php:196
-#: templates/canvas-sidebar.php:22
+#: inc/ajax.class.php:67
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+"Desculpe! Nada foi encontrado com os termos pesquisado. Por favor, tente "
+"novamente."
+
+#: inc/ajax.class.php:103 inc/ajax.class.php:198
 #: templates/woocommerce/loop/canvas-woocommerce-filter.php:23
 msgid "Close"
 msgstr "Fechar"
 
-#: inc/ajax.class.php:105 inc/ajax.class.php:200
+#: inc/ajax.class.php:107 inc/ajax.class.php:202
 msgid "Hello. Welcome to your account."
 msgstr "Olá, Seja bem vindo a sua conta"
 
-#: inc/ajax.class.php:113 inc/ajax.class.php:208
+#: inc/ajax.class.php:115 inc/ajax.class.php:210
 msgid "Username"
 msgstr "Usuário"
 
-#: inc/ajax.class.php:120
+#: inc/ajax.class.php:122
 msgid "Password"
 msgstr "Senha"
 
-#: inc/ajax.class.php:131
+#: inc/ajax.class.php:133
 msgid "NO"
 msgstr "NÃO"
 
-#: inc/ajax.class.php:132
+#: inc/ajax.class.php:134
 msgid "YES"
 msgstr "SIM"
 
-#: inc/ajax.class.php:133
+#: inc/ajax.class.php:135
 msgid "Remember me"
 msgstr "Lembrar"
 
-#: inc/ajax.class.php:199 inc/ajax.class.php:226
+#: inc/ajax.class.php:201 inc/ajax.class.php:228
 msgid "Register"
 msgstr "Registro"
 
-#: inc/ajax.class.php:215 inc/blog.class.php:403 inc/blog.class.php:404
+#: inc/ajax.class.php:217 inc/blog.class.php:399 inc/blog.class.php:400
 msgid "Email"
 msgstr "E-mail"
 
-#: inc/ajax.class.php:229
+#: inc/ajax.class.php:231
 msgid "The password will be emailed to you!"
 msgstr "A senha foi enviada ao seu e-mail"
 
-#: inc/ajax.class.php:256
+#: inc/ajax.class.php:258
 msgid "<strong>ERROR:</strong> "
 msgstr "<strong>ERRO:</strong> "
 
-#: inc/assets.class.php:186
+#: inc/assets.class.php:217
 msgid "More <span class=\"caret\"></span>"
 msgstr "Mais <span class=\"caret\"></span>"
 
-#: inc/blog.class.php:401 inc/blog.class.php:402
+#: inc/blog.class.php:397 inc/blog.class.php:398
 msgid "Name"
 msgstr "Nome"
 
-#: inc/blog.class.php:405 inc/blog.class.php:406
+#: inc/blog.class.php:401 inc/blog.class.php:402
 msgid "Website"
 msgstr "Site"
 
-#: inc/blog.class.php:412
+#: inc/blog.class.php:408
 msgid "Comment"
 msgstr "Comentário"
 
-#: inc/blog.class.php:413
+#: inc/blog.class.php:409
 msgid "Leave your thought here"
 msgstr "Deixe seu comentário aqui"
 
-#: inc/blog.class.php:416
+#: inc/blog.class.php:412
 msgid "Submit"
 msgstr "Enviar"
 
@@ -949,7 +951,7 @@ msgid "Home"
 msgstr "Home"
 
 #: inc/breadcrumbs.class.php:118 inc/breadcrumbs.class.php:133
-#: inc/helper.class.php:130
+#: inc/helper.class.php:128
 msgid "Blog"
 msgstr "Blog"
 
@@ -962,80 +964,80 @@ msgid "Search:"
 msgstr "Pesquisar:"
 
 #: inc/breadcrumbs.class.php:121 inc/breadcrumbs.class.php:136
-#: inc/helper.class.php:132
+#: inc/helper.class.php:130
 msgid "Page Not Found"
 msgstr "Página não encontrada"
 
-#: inc/font-icon.class.php:41
+#: inc/font-icon.class.php:48
 msgid "Font Awesome"
 msgstr "Font Awesome"
 
-#: inc/font-icon.class.php:45
+#: inc/font-icon.class.php:52
 msgid "Themify Icons"
 msgstr "Themify Icons"
 
-#: inc/font-icon.class.php:49
+#: inc/font-icon.class.php:56
 msgid "Ionicons"
 msgstr "Ionicons"
 
-#: inc/helper.class.php:138
+#: inc/helper.class.php:136
 msgid "Tags: "
 msgstr "Tags: "
 
-#: inc/helper.class.php:140
+#: inc/helper.class.php:138
 #, php-format
 msgid "Search Results For: %s"
 msgstr "Resultados encontrados para: %s"
 
-#: inc/helper.class.php:142
+#: inc/helper.class.php:140
 #, php-format
 msgid "Daily Archives: %s"
 msgstr "Arquivos diários"
 
-#: inc/helper.class.php:144
+#: inc/helper.class.php:142
 #, php-format
 msgid "Monthly Archives: %s"
 msgstr "Arquivos mensais: %s"
 
-#: inc/helper.class.php:146
+#: inc/helper.class.php:144
 #, php-format
 msgid "Yearly Archives: %s"
 msgstr "Arquivo anual: %s"
 
-#: inc/helper.class.php:148
+#: inc/helper.class.php:146
 #, php-format
 msgid "Author: %s"
 msgstr "Autor: %s"
 
-#: inc/helper.class.php:152
+#: inc/helper.class.php:150
 msgid "Galleries"
 msgstr "Galerias"
 
-#: inc/helper.class.php:154
+#: inc/helper.class.php:152
 msgid "Images"
 msgstr "Imagens"
 
-#: inc/helper.class.php:156
+#: inc/helper.class.php:154
 msgid "Videos"
 msgstr "Vídeos"
 
-#: inc/helper.class.php:158
+#: inc/helper.class.php:156
 msgid "Quotes"
 msgstr "Citações"
 
-#: inc/helper.class.php:160
+#: inc/helper.class.php:158
 msgid "Links"
 msgstr "Links"
 
-#: inc/helper.class.php:162
+#: inc/helper.class.php:160
 msgid "Statuses"
 msgstr "Status"
 
-#: inc/helper.class.php:164
+#: inc/helper.class.php:162
 msgid "Audios"
 msgstr "Áudios"
 
-#: inc/helper.class.php:166
+#: inc/helper.class.php:164
 msgid "Chats"
 msgstr "Chats"
 
@@ -1063,7 +1065,8 @@ msgctxt "submit button"
 msgid "Search"
 msgstr "Pesquisar"
 
-#: templates/comments.php:29 templates/loop/post-meta.php:17
+#: templates/comments.php:29 templates/loop/post-meta-02.php:19
+#: templates/loop/post-meta.php:17
 msgid "Edit"
 msgstr "Editar"
 
@@ -1079,7 +1082,14 @@ msgstr "Todos"
 msgid "Nothing Found"
 msgstr "Nada foi encontrado"
 
-#: templates/loop/layout/grid.php:38
+#: templates/loop/content-none.php:18
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Desculpe! Não foi encontrado o termo pesquisado. Por favor tente novamente."
+
+#: templates/loop/layout/grid.php:47
 msgid "read more"
 msgstr "leia mais"
 
@@ -1264,10 +1274,18 @@ msgstr "Finalizar Compra"
 msgid "Calculate Shipping"
 msgstr "Calcular Entrega"
 
+#: woocommerce/cart/shipping-calculator.php:97
+msgid "Update Totals"
+msgstr "Atualizar Total"
+
 #: woocommerce/checkout/form-checkout.php:62
 msgid "Your order"
 msgstr "Seu pedido"
 
-#: woocommerce/single-product/related.php:94
+#: woocommerce/loop/no-products-found.php:25
+msgid "No products were found matching your selection."
+msgstr "Nenhum produto encontrado para essa seleção."
+
+#: woocommerce/single-product/related.php:96
 msgid "Related products"
 msgstr "Produtos Relacionados"
