@@ -253,8 +253,12 @@
         color: $vermelho;
     }
 
-    img {
+    .img-credito img {
         width: 75% !important; 
+    }
+
+    .img-entrega img {
+        width: 85% !important; 
     }
     
 }
@@ -760,5 +764,129 @@
 .gsf-catalog-filter-result-count {
 
     display: none !important;
-
 }
+
+//FRASE VEGANO
+.frase-vegano h2 {
+    color: $azul;
+    font-size: 4.5rem;
+}
+
+.form-empresas {
+    padding-top: 6rem;
+    margin-bottom: -5rem;
+    h2 {
+        color: $laranja;
+    }
+}
+
+.selo-certificado {
+    
+    img {
+        border-radius: 10px;
+    }
+
+    .wpb_content_element {
+        margin-bottom: 0 !important;
+    }
+}
+
+.banner-revenda {
+    padding-bottom: 4rem;
+
+    a {
+        color: $branco;
+
+        &:hover {
+            color: $azul;
+        }
+    }
+
+    h2 {
+        color: $branco;
+        //font-size: 5rem;
+    }
+
+    p {
+        color: $branco;
+    }
+
+    .wpb_content_element {
+        margin-bottom: 0 !important;
+    }
+
+    .btn.btn-primary {
+        color: $cor-texto3;
+        border-radius: 50px;
+        border:none;
+        background: $branco;
+        margin-top: 2rem;
+
+        &:hover {
+            color: $branco;
+            background: $azul; 
+        }
+    }
+}
+
+.tabela-nutricional {
+    width: 100%;
+    border:none !important;
+    // filho par
+    tr:nth-child(even) {
+        background: #FFF
+    }
+    // filho impar
+    tr:nth-child(odd) {
+        background: #efefef;
+    }
+
+    tr, td {
+        border: 1px solid #8e8787;
+        padding: 0.5rem;
+    }
+
+    tbody tr:first-child td {
+        text-align: center;
+        font-size: 1.6rem;
+        background: $vermelho;
+        color: white;
+        border-color: $vermelho !important;
+        padding: 2rem 0rem;
+        p {
+            margin-bottom: 0;
+            line-height: normal;
+        }
+    }
+}
+
+//CONFIGURANDO A TABELA NUTRICIONAL
+
+/*.tabela-nutricional {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: 2px solid $cinza-escuro;
+
+    tr:nth-child(even) {
+        background: $cinza-claro;
+    }
+
+    tr:nth-child(odd) {
+        background: #FFF
+    }
+
+    tr, td {
+        border: 1px solid $cinza-escuro;
+        padding: 0.5rem;
+    }
+
+    tbody tr:first-child td {
+        text-align: center;
+        font-size: 1.6rem;
+        background: $cinza-escuro;
+        color: white;
+    }
+}
+*/

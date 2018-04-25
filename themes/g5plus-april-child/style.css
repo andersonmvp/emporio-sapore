@@ -239,8 +239,12 @@ Put your custom CSS below this block :)
   color: #8f3132;
 }
 
-.box-atendimento img {
+.box-atendimento .img-credito img {
   width: 75% !important;
+}
+
+.box-atendimento .img-entrega img {
+  width: 85% !important;
 }
 
 .box-rodape {
@@ -693,6 +697,125 @@ Put your custom CSS below this block :)
   display: none !important;
 }
 
+.frase-vegano h2 {
+  color: #3AAFC4;
+  font-size: 4.5rem;
+}
+
+.form-empresas {
+  padding-top: 6rem;
+  margin-bottom: -5rem;
+}
+
+.form-empresas h2 {
+  color: #E8A970;
+}
+
+.selo-certificado img {
+  border-radius: 10px;
+}
+
+.selo-certificado .wpb_content_element {
+  margin-bottom: 0 !important;
+}
+
+.banner-revenda {
+  padding-bottom: 4rem;
+}
+
+.banner-revenda a {
+  color: #FFFFFF;
+}
+
+.banner-revenda a:hover {
+  color: #3AAFC4;
+}
+
+.banner-revenda h2 {
+  color: #FFFFFF;
+}
+
+.banner-revenda p {
+  color: #FFFFFF;
+}
+
+.banner-revenda .wpb_content_element {
+  margin-bottom: 0 !important;
+}
+
+.banner-revenda .btn.btn-primary {
+  color: #555555;
+  border-radius: 50px;
+  border: none;
+  background: #FFFFFF;
+  margin-top: 2rem;
+}
+
+.banner-revenda .btn.btn-primary:hover {
+  color: #FFFFFF;
+  background: #3AAFC4;
+}
+
+.tabela-nutricional {
+  width: 100%;
+  border: none !important;
+}
+
+.tabela-nutricional tr:nth-child(even) {
+  background: #FFF;
+}
+
+.tabela-nutricional tr:nth-child(odd) {
+  background: #efefef;
+}
+
+.tabela-nutricional tr, .tabela-nutricional td {
+  border: 1px solid #8e8787;
+  padding: 0.5rem;
+}
+
+.tabela-nutricional tbody tr:first-child td {
+  text-align: center;
+  font-size: 1.6rem;
+  background: #8f3132;
+  color: white;
+  border-color: #8f3132 !important;
+  padding: 2rem 0rem;
+}
+
+.tabela-nutricional tbody tr:first-child td p {
+  margin-bottom: 0;
+  line-height: normal;
+}
+
+/*.tabela-nutricional {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: 2px solid $cinza-escuro;
+
+    tr:nth-child(even) {
+        background: $cinza-claro;
+    }
+
+    tr:nth-child(odd) {
+        background: #FFF
+    }
+
+    tr, td {
+        border: 1px solid $cinza-escuro;
+        padding: 0.5rem;
+    }
+
+    tbody tr:first-child td {
+        text-align: center;
+        font-size: 1.6rem;
+        background: $cinza-escuro;
+        color: white;
+    }
+}
+*/
 .box-promocao .product span.price ins {
   color: #FFFFFF;
 }
@@ -1261,6 +1384,12 @@ ins .woocommerce-Price-currencySymbol {
 .woocommerce-message a {
   border-radius: 50px;
   background-color: #3AAFC4;
+  padding: 0.3rem 2.5rem;
+  color: white !important;
+}
+
+.woocommerce-message a:hover {
+  background-color: #E8A970;
 }
 
 .shopping-cart-list.drop-shadow .woocommerce-mini-cart__total .woocommerce-Price-amount {
@@ -1795,6 +1924,9 @@ ins .woocommerce-Price-currencySymbol {
 }
 
 @media (max-width: 768px) {
+  .frase-vegano h2 {
+    font-size: 2.5rem;
+  }
   .woocommerce-cart .back-to-top {
     display: none;
   }

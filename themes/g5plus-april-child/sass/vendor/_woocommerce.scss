@@ -658,6 +658,12 @@ position: relative;
 .woocommerce-message a {
     border-radius: 50px;
     background-color: $azul;
+    padding: 0.3rem 2.5rem;
+    color: white !important;
+
+    &:hover {
+        background-color: $laranja;
+    }
 
 }
 

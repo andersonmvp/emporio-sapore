@@ -25,7 +25,7 @@ $states['BR'] = array(
 return $states;
 }
 
-//Valor mínimo de compra
+/* //Valor mínimo de compra
 
 add_action( 'woocommerce_checkout_process', 'wc_minimum_order_amount' );
 add_action( 'woocommerce_before_cart' , 'wc_minimum_order_amount' );
@@ -58,6 +58,8 @@ function wc_minimum_order_amount() {
     }
 
 }
+
+*/
 
 //ocultar erros
 add_action('admin_head', 'ocultar_erros');
