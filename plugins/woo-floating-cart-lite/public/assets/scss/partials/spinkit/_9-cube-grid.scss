@@ -1,0 +1,55 @@
+/*
+ *  Usage:
+ *
+      <div class="woofc-spinner-cube-grid">
+        <div class="woofc-spinner-cube woofc-spinner-cube1"></div>
+        <div class="woofc-spinner-cube woofc-spinner-cube2"></div>
+        <div class="woofc-spinner-cube woofc-spinner-cube3"></div>
+        <div class="woofc-spinner-cube woofc-spinner-cube4"></div>
+        <div class="woofc-spinner-cube woofc-spinner-cube5"></div>
+        <div class="woofc-spinner-cube woofc-spinner-cube6"></div>
+        <div class="woofc-spinner-cube woofc-spinner-cube7"></div>
+        <div class="woofc-spinner-cube woofc-spinner-cube8"></div>
+        <div class="woofc-spinner-cube woofc-spinner-cube9"></div>
+      </div>
+ *
+ */
+@import "../variables";
+
+.woofc-spinner-cube-grid {
+  $delayRange: 0.4s;
+
+  width: $spinkit-spinner-size;
+  height: $spinkit-spinner-size;
+  margin: $spinkit-spinner-margin;
+
+  .woofc-spinner-cube {
+    width: 33.33%;
+    height: 33.33%;
+    background-color: $spinkit-spinner-color;
+    float: left;
+    animation: woofc-spinner-cubeGridScaleDelay 1.3s infinite ease-in-out;
+  }
+
+  /*
+   * Spinner positions
+   * 1 2 3
+   * 4 5 6
+   * 7 8 9
+   */
+
+  .woofc-spinner-cube1 { animation-delay: $delayRange * 0.50 }
+  .woofc-spinner-cube2 { animation-delay: $delayRange * 0.75 }
+  .woofc-spinner-cube3 { animation-delay: $delayRange }
+  .woofc-spinner-cube4 { animation-delay: $delayRange * 0.25 }
+  .woofc-spinner-cube5 { animation-delay: $delayRange * 0.50 }
+  .woofc-spinner-cube6 { animation-delay: $delayRange * 0.75 }
+  .woofc-spinner-cube7 { animation-delay: 0.0s }
+  .woofc-spinner-cube8 { animation-delay: $delayRange * 0.25 }
+  .woofc-spinner-cube9 { animation-delay: $delayRange * 0.50 }
+}
+
+@keyframes woofc-spinner-cubeGridScaleDelay {
+  0%, 70%, 100% { transform:scale3D(1.0, 1.0, 1.0) }
+  35%           { transform:scale3D(0.0, 0.0, 1.0) }
+}

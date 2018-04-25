@@ -1,0 +1,52 @@
+/*
+ *  Usage:
+ *
+      <div class="woofc-spinner-chasing-dots">
+        <div class="woofc-spinner-child woofc-spinner-dot1"></div>
+        <div class="woofc-spinner-child woofc-spinner-dot2"></div>
+      </div>
+ *
+ */
+@import "../variables";
+
+.woofc-spinner-chasing-dots {
+  $animationDuration: 2.0s;
+
+  margin: $spinkit-spinner-margin;
+  width: $spinkit-spinner-size;
+  height: $spinkit-spinner-size;
+  position: relative;
+  text-align: center;
+  animation: woofc-spinner-chasingDotsRotate $animationDuration infinite linear;
+
+  .woofc-spinner-child {
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background-color: $spinkit-spinner-color;
+    border-radius: 100%;
+    animation: woofc-spinner-chasingDotsBounce $animationDuration infinite ease-in-out;
+  }
+
+  .woofc-spinner-dot2 {
+    top: auto;
+    bottom: 0;
+    animation-delay: $animationDuration/2;
+  }
+}
+
+@keyframes woofc-spinner-chasingDotsRotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes woofc-spinner-chasingDotsBounce {
+  0%, 100% {
+    transform: scale(0);
+  } 50% {
+    transform: scale(1.0);
+  }
+}

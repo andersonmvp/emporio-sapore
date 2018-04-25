@@ -830,6 +830,7 @@
 }
 
 .tabela-nutricional {
+
     width: 100%;
     border:none !important;
     // filho par
@@ -860,33 +861,18 @@
     }
 }
 
-//CONFIGURANDO A TABELA NUTRICIONAL
-
-/*.tabela-nutricional {
-    width: 100%;
-    margin-bottom: 1rem;
-    font-size: 1.4rem;
-    font-weight: 700;
-    border: 2px solid $cinza-escuro;
-
-    tr:nth-child(even) {
-        background: $cinza-claro;
-    }
-
-    tr:nth-child(odd) {
-        background: #FFF
-    }
-
-    tr, td {
-        border: 1px solid $cinza-escuro;
-        padding: 0.5rem;
-    }
-
-    tbody tr:first-child td {
-        text-align: center;
-        font-size: 1.6rem;
-        background: $cinza-escuro;
-        color: white;
-    }
+.woofc-no-touchevents .woofc-inner a.woofc-checkout:hover {
+    background: $laranja;
 }
-*/
+
+.woofc-inner a.woofc-checkout {
+        background: $vermelho;
+}
+
+.woofc-trigger .woofc-count {
+    background: $laranja;
+}
+
+.woofc-footer .woofc-trigger {
+   background: $branco;
+}

@@ -1,0 +1,48 @@
+<?php
+
+/**
+ * Provide a public-facing view for the plugin
+ *
+ * This file is used to markup the cart list.
+ *
+ * This template can be overridden by copying it to yourtheme/woo-floating-cart/parts/cart/list.php.
+ *
+ * HOWEVER, on occasion we will need to update template files and you (the theme developer).
+ * will need to copy the new files to your theme to maintain compatibility. We try to do this.
+ * as little as possible, but it does happen. When this occurs the version of the template file will.
+ * be bumped and the readme will list any important changes.
+ *
+ * @link       http://xplodedthemes.com
+ * @since      1.0.0
+ *
+ * @package    Woo_Floating_Cart
+ * @subpackage Woo_Floating_Cart/public/templates/parts
+ */
+ 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+} 
+?>
+
+<ul class="woofc-list">
+	<?php 
+		
+	woo_floating_cart_template('parts/cart/list/empty');
+	
+	foreach ( WC()->cart->get_cart() as $cart_item_key => $cart_item ) {
+
+		$product = woofc_item_product($cart_item, $cart_item_key);
+
+		if ( $product && $product->exists() && $cart_item['quantity'] > 0 && apply_filters( 'woocommerce_widget_cart_item_visible', true, $cart_item, $cart_item_key ) ) {
+			
+			woo_floating_cart_template('parts/cart/list/product', array(
+				'cart_item_key' => $cart_item_key,
+				'cart_item' => $cart_item,
+				'product' => $product
+			));	
+		}
+	
+	}
+	
+	?>
+</ul>

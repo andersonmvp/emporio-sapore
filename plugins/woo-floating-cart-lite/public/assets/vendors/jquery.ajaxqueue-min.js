@@ -1,0 +1,1 @@
+!function($,e){var r=$({});$.woofcAjaxQueue=function(e){function n(r){u=$.ajax(e),u.done(o.resolve).fail(o.reject).then(r,r)}var u,o=$.Deferred(),t=o.promise();return r.queue(n),t.abort=function(a){if(u)return u.abort(a);var i=r.queue(),c=$.inArray(n,i);return c>-1&&i.splice(c,1),o.rejectWith(e.context||e,[t,a,""]),t},t},e.woofcAjaxQueue=r}(jQuery,window);
