@@ -1,0 +1,578 @@
+/*
+Flaticon icon font: WooFcIcons
+Creation date: 12/10/2016 22:47
+*/
+@font-face {
+  font-family: "WoofcIcon";
+  src: url("../font/Flaticon.eot");
+  src: url("../font/Flaticon.eot?#iefix") format("embedded-opentype"), url("../font/Flaticon.woff") format("woff"), url("../font/Flaticon.ttf") format("truetype"), url("../font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "WoofcIcon";
+    src: url("../font/Flaticon.svg#WoofcIcon") format("svg");
+  }
+}
+
+[class^="woofcicon-"]:before, [class*=" woofcicon-"]:before {
+  display: inline-block;
+  font-family: "WoofcIcon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.woofcicon-add:before {
+  content: "\f100";
+}
+
+.woofcicon-add-1:before {
+  content: "\f101";
+}
+
+.woofcicon-arrow:before {
+  content: "\f102";
+}
+
+.woofcicon-arrows:before {
+  content: "\f103";
+}
+
+.woofcicon-arrows-1:before {
+  content: "\f104";
+}
+
+.woofcicon-arrows-10:before {
+  content: "\f105";
+}
+
+.woofcicon-arrows-11:before {
+  content: "\f106";
+}
+
+.woofcicon-arrows-2:before {
+  content: "\f107";
+}
+
+.woofcicon-arrows-3:before {
+  content: "\f108";
+}
+
+.woofcicon-arrows-4:before {
+  content: "\f109";
+}
+
+.woofcicon-arrows-5:before {
+  content: "\f10a";
+}
+
+.woofcicon-arrows-6:before {
+  content: "\f10b";
+}
+
+.woofcicon-arrows-7:before {
+  content: "\f10c";
+}
+
+.woofcicon-arrows-8:before {
+  content: "\f10d";
+}
+
+.woofcicon-arrows-9:before {
+  content: "\f10e";
+}
+
+.woofcicon-bag:before {
+  content: "\f10f";
+}
+
+.woofcicon-bag-1:before {
+  content: "\f110";
+}
+
+.woofcicon-bag-2:before {
+  content: "\f111";
+}
+
+.woofcicon-bag-3:before {
+  content: "\f112";
+}
+
+.woofcicon-bag-4:before {
+  content: "\f113";
+}
+
+.woofcicon-bag-5:before {
+  content: "\f114";
+}
+
+.woofcicon-bag-6:before {
+  content: "\f115";
+}
+
+.woofcicon-basket:before {
+  content: "\f116";
+}
+
+.woofcicon-basket-1:before {
+  content: "\f117";
+}
+
+.woofcicon-basket-2:before {
+  content: "\f118";
+}
+
+.woofcicon-basket-3:before {
+  content: "\f119";
+}
+
+.woofcicon-basket-supermarket:before {
+  content: "\f11a";
+}
+
+.woofcicon-business:before {
+  content: "\f11b";
+}
+
+.woofcicon-business-1:before {
+  content: "\f11c";
+}
+
+.woofcicon-business-2:before {
+  content: "\f11d";
+}
+
+.woofcicon-cart:before {
+  content: "\f11e";
+}
+
+.woofcicon-cart-1:before {
+  content: "\f11f";
+}
+
+.woofcicon-cart-2:before {
+  content: "\f120";
+}
+
+.woofcicon-cart-3:before {
+  content: "\f121";
+}
+
+.woofcicon-cart-4:before {
+  content: "\f122";
+}
+
+.woofcicon-cart-5:before {
+  content: "\f123";
+}
+
+.woofcicon-cart-6:before {
+  content: "\f124";
+}
+
+.woofcicon-cart-7:before {
+  content: "\f125";
+}
+
+.woofcicon-circle:before {
+  content: "\f126";
+}
+
+.woofcicon-close:before {
+  content: "\f127";
+}
+
+.woofcicon-close-1:before {
+  content: "\f128";
+}
+
+.woofcicon-close-2:before {
+  content: "\f129";
+}
+
+.woofcicon-close-3:before {
+  content: "\f12a";
+}
+
+.woofcicon-close-4:before {
+  content: "\f12b";
+}
+
+.woofcicon-close-5:before {
+  content: "\f12c";
+}
+
+.woofcicon-close-6:before {
+  content: "\f12d";
+}
+
+.woofcicon-close-7:before {
+  content: "\f12e";
+}
+
+.woofcicon-close-8:before {
+  content: "\f12f";
+}
+
+.woofcicon-close-9:before {
+  content: "\f130";
+}
+
+.woofcicon-commerce:before {
+  content: "\f131";
+}
+
+.woofcicon-commerce-1:before {
+  content: "\f132";
+}
+
+.woofcicon-commerce-10:before {
+  content: "\f133";
+}
+
+.woofcicon-commerce-11:before {
+  content: "\f134";
+}
+
+.woofcicon-commerce-12:before {
+  content: "\f135";
+}
+
+.woofcicon-commerce-13:before {
+  content: "\f136";
+}
+
+.woofcicon-commerce-14:before {
+  content: "\f137";
+}
+
+.woofcicon-commerce-2:before {
+  content: "\f138";
+}
+
+.woofcicon-commerce-3:before {
+  content: "\f139";
+}
+
+.woofcicon-commerce-4:before {
+  content: "\f13a";
+}
+
+.woofcicon-commerce-5:before {
+  content: "\f13b";
+}
+
+.woofcicon-commerce-6:before {
+  content: "\f13c";
+}
+
+.woofcicon-commerce-7:before {
+  content: "\f13d";
+}
+
+.woofcicon-commerce-8:before {
+  content: "\f13e";
+}
+
+.woofcicon-commerce-9:before {
+  content: "\f13f";
+}
+
+.woofcicon-construction:before {
+  content: "\f140";
+}
+
+.woofcicon-cross:before {
+  content: "\f141";
+}
+
+.woofcicon-cross-1:before {
+  content: "\f142";
+}
+
+.woofcicon-delete:before {
+  content: "\f143";
+}
+
+.woofcicon-delete-1:before {
+  content: "\f144";
+}
+
+.woofcicon-delete-2:before {
+  content: "\f145";
+}
+
+.woofcicon-delete-3:before {
+  content: "\f146";
+}
+
+.woofcicon-empty-shopping-cart:before {
+  content: "\f147";
+}
+
+.woofcicon-flat-minus:before {
+  content: "\f148";
+}
+
+.woofcicon-flat-plus:before {
+  content: "\f149";
+}
+
+.woofcicon-food:before {
+  content: "\f14a";
+}
+
+.woofcicon-full-items-inside-a-shopping-bag:before {
+  content: "\f14b";
+}
+
+.woofcicon-groceries:before {
+  content: "\f14c";
+}
+
+.woofcicon-groceries-store:before {
+  content: "\f14d";
+}
+
+.woofcicon-interface:before {
+  content: "\f14e";
+}
+
+.woofcicon-market:before {
+  content: "\f14f";
+}
+
+.woofcicon-market-1:before {
+  content: "\f150";
+}
+
+.woofcicon-market-2:before {
+  content: "\f151";
+}
+
+.woofcicon-market-3:before {
+  content: "\f152";
+}
+
+.woofcicon-market-4:before {
+  content: "\f153";
+}
+
+.woofcicon-minus:before {
+  content: "\f154";
+}
+
+.woofcicon-minus-1:before {
+  content: "\f155";
+}
+
+.woofcicon-online-shopping-cart:before {
+  content: "\f156";
+}
+
+.woofcicon-plus:before {
+  content: "\f157";
+}
+
+.woofcicon-plus-1:before {
+  content: "\f158";
+}
+
+.woofcicon-restaurant:before {
+  content: "\f159";
+}
+
+.woofcicon-shop:before {
+  content: "\f15a";
+}
+
+.woofcicon-shop-1:before {
+  content: "\f15b";
+}
+
+.woofcicon-shop-2:before {
+  content: "\f15c";
+}
+
+.woofcicon-shop-3:before {
+  content: "\f15d";
+}
+
+.woofcicon-shop-4:before {
+  content: "\f15e";
+}
+
+.woofcicon-shop-5:before {
+  content: "\f15f";
+}
+
+.woofcicon-shopping:before {
+  content: "\f160";
+}
+
+.woofcicon-shopping-1:before {
+  content: "\f161";
+}
+
+.woofcicon-shopping-bag:before {
+  content: "\f162";
+}
+
+.woofcicon-shopping-bag-1:before {
+  content: "\f163";
+}
+
+.woofcicon-shopping-bag-2:before {
+  content: "\f164";
+}
+
+.woofcicon-shopping-bag-3:before {
+  content: "\f165";
+}
+
+.woofcicon-shopping-bag-4:before {
+  content: "\f166";
+}
+
+.woofcicon-shopping-bag-5:before {
+  content: "\f167";
+}
+
+.woofcicon-shopping-bag-6:before {
+  content: "\f168";
+}
+
+.woofcicon-shopping-basket:before {
+  content: "\f169";
+}
+
+.woofcicon-shopping-basket-1:before {
+  content: "\f16a";
+}
+
+.woofcicon-shopping-basket-2:before {
+  content: "\f16b";
+}
+
+.woofcicon-shopping-basket-3:before {
+  content: "\f16c";
+}
+
+.woofcicon-shopping-basket-4:before {
+  content: "\f16d";
+}
+
+.woofcicon-shopping-basket-5:before {
+  content: "\f16e";
+}
+
+.woofcicon-shopping-basket-6:before {
+  content: "\f16f";
+}
+
+.woofcicon-shopping-basket-7:before {
+  content: "\f170";
+}
+
+.woofcicon-shopping-basket-8:before {
+  content: "\f171";
+}
+
+.woofcicon-shopping-basket-button:before {
+  content: "\f172";
+}
+
+.woofcicon-shopping-cart:before {
+  content: "\f173";
+}
+
+.woofcicon-shopping-cart-1:before {
+  content: "\f174";
+}
+
+.woofcicon-shopping-cart-10:before {
+  content: "\f175";
+}
+
+.woofcicon-shopping-cart-2:before {
+  content: "\f176";
+}
+
+.woofcicon-shopping-cart-3:before {
+  content: "\f177";
+}
+
+.woofcicon-shopping-cart-4:before {
+  content: "\f178";
+}
+
+.woofcicon-shopping-cart-5:before {
+  content: "\f179";
+}
+
+.woofcicon-shopping-cart-6:before {
+  content: "\f17a";
+}
+
+.woofcicon-shopping-cart-7:before {
+  content: "\f17b";
+}
+
+.woofcicon-shopping-cart-8:before {
+  content: "\f17c";
+}
+
+.woofcicon-shopping-cart-9:before {
+  content: "\f17d";
+}
+
+.woofcicon-shopping-cart-of-checkered-design:before {
+  content: "\f17e";
+}
+
+.woofcicon-shopping-purse-icon:before {
+  content: "\f17f";
+}
+
+.woofcicon-store:before {
+  content: "\f180";
+}
+
+.woofcicon-substract:before {
+  content: "\f181";
+}
+
+.woofcicon-substract-1:before {
+  content: "\f182";
+}
+
+.woofcicon-supermarket-basket:before {
+  content: "\f183";
+}
+
+.woofcicon-tool:before {
+  content: "\f184";
+}
+
+.woofcicon-tool-1:before {
+  content: "\f185";
+}
+
+.woofcicon-tool-2:before {
+  content: "\f186";
+}
+
+.woofcicon-tool-3:before {
+  content: "\f187";
+}
+/*# sourceMappingURL=woofcicons.css.map */

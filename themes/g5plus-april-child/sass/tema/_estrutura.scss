@@ -876,3 +876,15 @@
 .woofc-footer .woofc-trigger {
    background: $branco;
 }
+
+//APARECER O CHAPEU QUANDO ROLAR A PAGINA
+
+.header-sticky-wrapper {
+    .chapeu-menu {
+        display: none;
+    }
+
+    &.affix-wrap .chapeu-menu {
+        display: block;
+    }
+}

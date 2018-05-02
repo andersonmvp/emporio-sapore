@@ -804,6 +804,14 @@ Put your custom CSS below this block :)
   background: #FFFFFF;
 }
 
+.header-sticky-wrapper .chapeu-menu {
+  display: none;
+}
+
+.header-sticky-wrapper.affix-wrap .chapeu-menu {
+  display: block;
+}
+
 .box-promocao .product span.price ins {
   color: #FFFFFF;
 }
@@ -1670,6 +1678,31 @@ ins .woocommerce-Price-currencySymbol {
   text-decoration: none;
 }
 
+.woocommerce-order p:last-child {
+  font-weight: 700 !important;
+}
+
+.woocommerce-order .woocommerce-thankyou-order-received {
+  padding-top: 3rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #3AAFC4;
+  text-transform: uppercase;
+}
+
+.woocommerce-order .woocommerce-order-details h2, .woocommerce-order .woocommerce-customer-details h2 {
+  font-size: 5rem !important;
+  color: #E8A970;
+}
+
+.woocommerce table.shop_table tbody td a {
+  border-radius: 50px !important;
+}
+
+.woocommerce-MyAccount-content .woocommerce-columns--addresses h2 {
+  font-size: 5rem !important;
+}
+
 @media (max-width: 1200px) {
   .header-above .customize-search .search-form {
     width: 350px;
@@ -1908,6 +1941,13 @@ ins .woocommerce-Price-currencySymbol {
   }
   .related.products .owl-nav div {
     border-radius: 50px;
+  }
+  .woocommerce-order .woocommerce-thankyou-order-received {
+    font-size: 2rem;
+    line-height: normal;
+  }
+  ul.order_details li {
+    margin-bottom: 2rem;
   }
 }
 
