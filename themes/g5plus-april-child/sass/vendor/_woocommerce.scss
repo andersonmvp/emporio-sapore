@@ -935,6 +935,20 @@ position: relative;
         border: 1px solid $cor-texto2 !important;
     }
 
+    //CONFIGURANDO OS CAMPOS DE SENHA
+    .woocommerce-account-fields input {
+        border-radius: 50px !important;
+        background-color:initial !important;
+        border: 1px solid $cor-texto2 !important;
+    }
+
+    .woocommerce-additional-fields textarea {
+        border-radius: 25px !important;
+        background-color:initial !important;
+        border: 1px solid $cor-texto2 !important;
+    }
+
+    //CONFIGURANDO OS CAMPOS FINALIZAR COMPRAS
     .woocommerce-billing-fields {
 
         h3 {

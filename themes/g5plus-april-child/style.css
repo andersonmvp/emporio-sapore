@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
  Theme Name:   G5Plus April Child Theme
  Theme URI:    http://themes.g5plus.net/april/
@@ -788,28 +789,38 @@ Put your custom CSS below this block :)
   line-height: normal;
 }
 
+/*
+//COR DO BOTÃO AO PASSAR O MOUSE EM CIMA
 .woofc-no-touchevents .woofc-inner a.woofc-checkout:hover {
-  background: #E8A970;
+    background: $laranja;
 }
 
+//COR DO BOTÃO FINALIZAR COMPRA
 .woofc-inner a.woofc-checkout {
-  background: #8f3132;
+        background: $vermelho;
 }
 
+// COR DO BOTÃO AO SE PRECIONADO
 .woofc-trigger .woofc-count {
-  background: #E8A970;
+    background: $laranja;
 }
 
+//COR DO TEXTO DO BOTÃO
 .woofc-footer .woofc-trigger {
-  background: #FFFFFF;
+   background: $branco;
 }
 
+*/
 .header-sticky-wrapper .chapeu-menu {
   display: none;
 }
 
 .header-sticky-wrapper.affix-wrap .chapeu-menu {
   display: block;
+}
+
+.pgto-entrega {
+  width: 100%;
 }
 
 .box-promocao .product span.price ins {
@@ -1618,6 +1629,18 @@ ins .woocommerce-Price-currencySymbol {
 
 .woocommerce-checkout .woocommerce-billing-fields__field-wrapper .select2-selection {
   border-radius: 50px !important;
+  background-color: initial !important;
+  border: 1px solid #9B9B9B !important;
+}
+
+.woocommerce-checkout .woocommerce-account-fields input {
+  border-radius: 50px !important;
+  background-color: initial !important;
+  border: 1px solid #9B9B9B !important;
+}
+
+.woocommerce-checkout .woocommerce-additional-fields textarea {
+  border-radius: 25px !important;
   background-color: initial !important;
   border: 1px solid #9B9B9B !important;
 }

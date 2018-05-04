@@ -1,0 +1,54 @@
+.rtl .woofc-inner .woofc-product-image {
+  float: right; }
+
+.rtl .woofc-inner .woofc-price {
+  float: left;
+  text-align: left; }
+
+.rtl .woofc-inner .woofc-product-details {
+  padding: 12px 1em 0 0; }
+
+.rtl .woofc-inner .woofc-product-title {
+  float: right; }
+
+.rtl .woofc-inner .woofc-quantity {
+  float: right; }
+  .rtl .woofc-inner .woofc-quantity input {
+    float: right;
+    padding: 0 0 0 49px; }
+  .rtl .woofc-inner .woofc-quantity .woofc-quantity-changer {
+    float: right; }
+  .rtl .woofc-inner .woofc-quantity .woofc-quantity-button.woofc-quantity-up {
+    right: inherit;
+    left: -25px;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    border-left: 0; }
+  .rtl .woofc-inner .woofc-quantity .woofc-quantity-button.woofc-quantity-down {
+    right: inherit;
+    left: 0;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    border-right: 1px solid #eee; }
+
+.rtl .woofc-inner .woofc-delete-item {
+  float: right; }
+
+.rtl .woofc-inner .woofc-actions {
+  float: left; }
+
+.rtl .woofc-inner .woofc-undo {
+  float: left; }
+
+.rtl .woofc-inner .woofc-checkout em::after {
+  right: inherit;
+  left: 0;
+  bottom: 50%;
+  top: auto;
+  -webkit-transform: translateY(50%) rotate(180deg);
+  transform: translateY(50%) rotate(180deg); }
+
+.rtl .woofc-no-touchevents .woofc-cart-open .woofc-inner .woofc-checkout:hover em,
+.rtl .woofc-touchevents .woofc-cart-open .woofc-inner .woofc-checkout:focus em {
+  padding-right: inherit;
+  padding-left: 30px; }

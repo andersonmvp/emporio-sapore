@@ -861,21 +861,28 @@
     }
 }
 
+/*
+//COR DO BOTÃO AO PASSAR O MOUSE EM CIMA
 .woofc-no-touchevents .woofc-inner a.woofc-checkout:hover {
     background: $laranja;
 }
 
+//COR DO BOTÃO FINALIZAR COMPRA
 .woofc-inner a.woofc-checkout {
         background: $vermelho;
 }
 
+// COR DO BOTÃO AO SE PRECIONADO
 .woofc-trigger .woofc-count {
     background: $laranja;
 }
 
+//COR DO TEXTO DO BOTÃO
 .woofc-footer .woofc-trigger {
    background: $branco;
 }
+
+*/
 
 //APARECER O CHAPEU QUANDO ROLAR A PAGINA
 
@@ -887,4 +894,9 @@
     &.affix-wrap .chapeu-menu {
         display: block;
     }
+}
+
+// CONFIGURANDO O CAMPO DE ENTREGA
+.pgto-entrega {
+    width: 100%;
 }

@@ -1,0 +1,32 @@
+.woofc-product.woofc-bundled-item {
+   	margin-top: -10px !important;
+    padding: 0 10px 0 50px;
+    
+    &:last-child{
+	    border-bottom:0;
+    }
+
+	.woofc-product-image{
+	    width:40px;
+	    height:40px;
+	}
+
+	.woofc-inner & .woofc-product-details{
+    	width: calc( 100% - 40px);   
+
+		.woofc-product-title{
+		    transform:scale(0.8);
+		    transform-origin: top left;
+		    width: calc(100% - 50px);
+		}
+		.woofc-price{
+		    transform:scale(0.7);
+		    transform-origin: top right;
+		    width: auto;
+		}
+		.woofc-product-attributes {
+		    transform: scale(0.8);
+		    transform-origin: center left;
+		}
+	}		    
+}

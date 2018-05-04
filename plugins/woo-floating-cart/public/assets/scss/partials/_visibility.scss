@@ -1,0 +1,19 @@
+.woofc-show-on-tablet-desktop,
+.woofc-show-on-desktop-only{
+	display:none;
+}
+	
+@include MQ(S) {
+	.woofc-show-on-mobile-only{
+		display:none;	
+	}
+	.woofc-show-on-tablet-desktop{
+		display:block;
+	}		
+}
+	
+@include MQ(M) {
+	.woofc-show-on-desktop-only{
+		display:block;
+	}
+}
